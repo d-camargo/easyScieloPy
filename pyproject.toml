@@ -22,10 +22,30 @@ easyscielo = "easyscielo.cli:main"
 pandas = [
     "pandas",
 ]
+openalex = [
+    "pyalex",
+]
+review = [
+    "rispy",
+    "bibtexparser",
+    "rapidfuzz",
+    "jinja2",
+]
+screening = [
+    "scikit-learn",
+]
+plots = [
+    "matplotlib",
+]
 dev = [
     "pytest",
     "ruff",
     "mypy",
+]
+
+[tool.hatch.build]
+include = [
+    "src/easyscielo",
 ]
 
 [tool.hatch.build.targets.wheel]

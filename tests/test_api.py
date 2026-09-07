@@ -50,6 +50,7 @@ def mock_transport(monkeypatch):
 def test_example_1_simple_search(mock_transport):
     res = search_scielo("salud ambiental")
     assert len(res) == 10
+    pytest.importorskip("pandas")
     df = to_dataframe(res)
     assert len(df) == 10
 

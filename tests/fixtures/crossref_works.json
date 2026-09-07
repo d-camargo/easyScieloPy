@@ -1,0 +1,177 @@
+{
+  "_comment": "FIXTURE SINTÉTICA (regra D8): página mínima gerada à mão porque a rede estava indisponível na captura; reproduz a estrutura documentada de api.crossref.org/works.",
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5,
+    "items": [
+      {
+        "DOI": "10.1016/j.ymssp.2023.100000",
+        "title": [
+          "Structural health monitoring of bridges"
+        ],
+        "author": [
+          {
+            "given": "Ana",
+            "family": "Silva",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "name": "IEEE Structural Health Committee"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              15
+            ]
+          ]
+        },
+        "container-title": [
+          "Mechanical Systems and Signal Processing"
+        ],
+        "ISSN": [
+          "0888-3270",
+          "1096-1216"
+        ],
+        "subject": [
+          "Mechanical Engineering",
+          "Civil and Structural Engineering"
+        ],
+        "abstract": "<jats:p>Structural health monitoring is critical for bridge maintenance.</jats:p>"
+      },
+      {
+        "DOI": "10.1007/s13349-021-00500-1",
+        "title": [
+          "Damage detection using wireless sensor networks"
+        ],
+        "author": [
+          {
+            "given": "Maria",
+            "family": "Gomez",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Civil Structural Health Monitoring"
+        ],
+        "ISSN": [
+          "2190-5479"
+        ],
+        "subject": [
+          "Civil and Structural Engineering"
+        ]
+      },
+      {
+        "DOI": "10.1016/j.engstruct.2019.109000",
+        "title": [
+          "Vibration-based structural health monitoring"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Engineering Structures"
+        ],
+        "ISSN": [
+          "0141-0296"
+        ],
+        "subject": [
+          "Civil and Structural Engineering"
+        ],
+        "abstract": "<jats:p>Vibration analysis techniques for structural damage detection.</jats:p>"
+      },
+      {
+        "DOI": "10.1016/j.compstruct.2020.100000",
+        "title": [
+          "Acoustic emission monitoring of concrete structures"
+        ],
+        "author": [
+          {
+            "given": "John",
+            "family": "Smith",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "Composite Structures"
+        ],
+        "ISSN": [
+          "0263-8223"
+        ],
+        "subject": [
+          "Civil and Structural Engineering"
+        ]
+      },
+      {
+        "DOI": "10.1061/(ASCE)ST.1943-541X.0000001",
+        "title": [
+          "Modal parameter estimation under environmental variation"
+        ],
+        "author": [
+          {
+            "given": "Ming",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Structural Engineering"
+        ],
+        "ISSN": [
+          "0733-9445"
+        ],
+        "subject": [
+          "Civil and Structural Engineering"
+        ]
+      }
+    ],
+    "items-per-page": 5,
+    "query": {
+      "search-terms": "structural health monitoring",
+      "start-index": 0
+    },
+    "next-cursor": "IlNlY29uZFBhZ2VDdXJzb3Ii"
+  }
+}

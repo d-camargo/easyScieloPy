@@ -20,6 +20,7 @@ from easyscielo.filters import (
 from easyscielo.frame import to_csv, to_dataframe
 from easyscielo.http import HttpClient
 from easyscielo.models import Article, Query
+from easyscielo.sources import ALL_SOURCES, iter_articles, search_articles
 
 __version__ = "0.1.0"
 
@@ -34,6 +35,9 @@ __all__ = [
     "ValidationError",
     "iter_scielo",
     "search_scielo",
+    "iter_articles",
+    "search_articles",
+    "ALL_SOURCES",
     "to_csv",
     "to_dataframe",
     "normalize_collections",

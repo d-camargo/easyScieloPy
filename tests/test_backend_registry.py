@@ -6,7 +6,7 @@ from easyscielo.backends.base import Backend
 
 def test_get_backend_valid():
     """Test that valid backend names return a Backend instance."""
-    for name in ["search", "articlemeta", "oai"]:
+    for name in ["search", "articlemeta", "oai", "openalex", "crossref"]:
         backend = get_backend(name)
         assert isinstance(backend, Backend)
         assert backend.name == name
@@ -22,3 +22,5 @@ def test_get_backend_invalid():
     assert "search" in error_msg
     assert "articlemeta" in error_msg
     assert "oai" in error_msg
+    assert "openalex" in error_msg
+    assert "crossref" in error_msg

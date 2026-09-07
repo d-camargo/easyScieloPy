@@ -19,15 +19,36 @@ O `easyscielopy` (`easyscielo`) é uma biblioteca Python para consulta, extraç�
 - `src/easyscielo/frame.py`: Utilitários para conversão e exportação de dados (`to_dataframe`, `to_csv`).
 - `src/easyscielo/cli.py`: Interface de linha de comando (`easyscielo`).
 - `src/easyscielo/errors.py`: Hierarquia de exceções personalizadas (`ScieloError`, etc.).
-- `src/easyscielo/backends/`: Módulos de suporte e integração com os backends da SciELO:
+- `src/easyscielo/_optional.py`: Importação de dependências opcionais com mensagem de instalação do extra correspondente (`require`).
+- `src/easyscielo/config.py`: Resolução de credenciais e contatos das APIs externas (argumento explícito → variável de ambiente → `None`).
+- `src/easyscielo/sources.py`: Iteração e materialização de resultados de múltiplas fontes (`iter_articles`, `SCIELO_SOURCES`, `EXTERNAL_SOURCES`).
+- `src/easyscielo/backends/`: Módulos de suporte e integração com os backends de busca e metadados:
   - `search_html.py`: Backend de busca web e raspagem/parser HTML.
   - `articlemeta.py`: Backend para consumo da API REST oficial ArticleMeta (JSON).
   - `oai.py`: Backend para consumo do provedor OAI-PMH (XML Dublin Core).
+  - `openalex.py`: Backend para consumo da API OpenAlex (JSON).
+  - `crossref.py`: Backend para consumo da API Crossref (JSON).
+- `src/easyscielo/review/`: Subpacote de revisão sistemática (PRISMA 2020):
+  - `models.py`: Estruturas do corpus de revisão (`ReviewRecord`, `Corpus`, `Stage`, `Decision`, `make_record_id`).
+  - `normalize.py`: Normalização de DOI, título e autor e chave de blocagem para comparação (`blocking_key`).
+  - `dedup.py`: Deduplicação de registros entre fontes com resultado auditável (`deduplicate`, `DedupResult`).
+  - `importers.py`: Importação de registros externos em RIS, BibTeX e CSV (`from_ris`, `from_bibtex`, `from_csv`, `from_articles`).
+  - `exporters.py`: Exportação do corpus em RIS, BibTeX, CSV e JSON (`to_ris`, `to_bibtex`, `to_review_csv`, `to_json`).
+  - `screening.py`: Triagem determinística e auditável e ordenação por relevância (`ScreeningCriteria`, `screen`, `rank_by_relevance`).
+  - `metrics.py`: Métricas de avaliação e comparação de estratégias de busca (`evaluate_strategy`, `compare_strategies`, `coverage_by_*`).
+  - `prisma.py`: Contagens do fluxo PRISMA e geração do diagrama (`prisma_counts`, `to_mermaid`, `to_png`).
+  - `protocol.py`: Protocolo da revisão, serialização e proveniência reprodutível (`ReviewProtocol`, `provenance`, `compute_corpus_sha256`).
+  - `pipeline.py`: Orquestração ponta a ponta da revisão (`SystematicReview`, `ReviewResult`).
+  - `report.py`: Renderização do relatório final via Jinja2 (`render_report`).
+  - `templates/`: Templates Jinja2 do relatório (`report.md.j2`, `report.html.j2`).
 
 ## Regras de Trabalho e Testes
 
 - **Fixtures para Parsers**: Todo parser novo ou alteração em parser existente entra obrigatoriamente com fixture gravada em `tests/fixtures/`.
 - **Isolamento de Rede por Padrão**: Nenhum teste automatizado do projeto bate na rede por padrão. Todos os testes devem rodar offline utilizando mocks ou as fixtures previamente salvas.
+- **Fonte Nova é Backend**: Toda fonte nova implementa o `Backend` Protocol e entra no registro de backends. Não se cria abstração paralela para acomodar uma fonte.
+- **Credencial só por Variável de Ambiente**: Chaves de API e e-mails de contato vêm exclusivamente de variáveis de ambiente (ou de argumento explícito de quem chama), nunca de arquivo versionado. Nenhum teste depende de credencial nem de rede.
+- **Dependência de Revisão é Sempre Extra**: Toda dependência do subpacote `review/` (`rispy`, `bibtexparser`, `rapidfuzz`, `jinja2`, `scikit-learn`, `matplotlib`, etc.) entra em `[project.optional-dependencies]` como extra e é importada preguiçosamente dentro da função, via `_optional.require`. Nunca em `dependencies`, nunca com `import` no topo do módulo: instalar o `easyscielo` sem os extras tem que continuar funcionando, e importar `easyscielo.review` não pode quebrar por falta de extra.
 
 ## Regravação de Fixtures
 

@@ -103,12 +103,15 @@ def parse_search_page(html: str, lang: str = "en") -> list[Article]:
         # Article URL in the .title link (href), when present
         url = None
         if title_node is not None:
-            if title_node.has_attr("href"):
-                url = title_node["href"].strip()
+            raw_href = title_node.get("href")
+            if raw_href and isinstance(raw_href, str):
+                url = raw_href.strip()
             else:
                 link = title_node.find("a", href=True)
                 if link is not None:
-                    url = link["href"].strip()
+                    raw_link_href = link.get("href")
+                    if raw_link_href and isinstance(raw_link_href, str):
+                        url = raw_link_href.strip()
 
         # All authors in .authors a.author
         author_nodes = item.select(".authors a.author")
@@ -125,10 +128,12 @@ def parse_search_page(html: str, lang: str = "en") -> list[Article]:
                 authors = []
 
         # DOI in href of .DOIResults a
-        doi_node = item.select_one(".DOIResults a")
         doi = None
+        doi_node = item.select_one(".DOIResults a")
         if doi_node and doi_node.has_attr("href"):
-            doi = doi_node["href"].strip()
+            raw_doi_href = doi_node.get("href")
+            if raw_doi_href and isinstance(raw_doi_href, str):
+                doi = raw_doi_href.strip()
 
         # Year by regex \b\d{4}\b in span of .source; journal is the
         # first span of .source
@@ -146,7 +151,8 @@ def parse_search_page(html: str, lang: str = "en") -> list[Article]:
 
         # pid in attribute 'id' of item, abstract in div#<id>_en
         # with fallback to div#<id>_<lang>
-        item_id = item.get("id")
+        raw_item_id = item.get("id")
+        item_id = raw_item_id if isinstance(raw_item_id, str) else None
         abstract = None
         if item_id:
             abstract_node = soup.select_one(f"div#{item_id}_en")

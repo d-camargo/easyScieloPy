@@ -1,0 +1,157 @@
+# Relatório de Revisão Sistemática
+
+{% if protocol %}
+## Protocolo
+
+{% if protocol.title %}
+- **Título:** {{ protocol.title }}
+{% endif %}
+{% if protocol.question %}
+- **Pergunta de Pesquisa:** {{ protocol.question }}
+{% endif %}
+{% if protocol.queries %}
+- **Buscas (Queries):** {{ protocol.queries | join(', ') }}
+{% endif %}
+{% if protocol.sources %}
+- **Fontes:** {{ protocol.sources | join(', ') }}
+{% endif %}
+{% if protocol.query_filters %}
+- **Filtros:** {{ protocol.query_filters }}
+{% endif %}
+{% if protocol.criteria %}
+- **Critérios de Seleção:**
+{% if protocol.criteria.include_terms %}
+  - **Inclusão:** {{ protocol.criteria.include_terms | join(', ') }}
+{% endif %}
+{% if protocol.criteria.exclude_terms %}
+  - **Exclusão:** {{ protocol.criteria.exclude_terms | join(', ') }}
+{% endif %}
+{% if protocol.criteria.year_min %}
+  - **Ano Mínimo:** {{ protocol.criteria.year_min }}
+{% endif %}
+{% if protocol.criteria.year_max %}
+  - **Ano Máximo:** {{ protocol.criteria.year_max }}
+{% endif %}
+{% if protocol.criteria.languages %}
+  - **Idiomas:** {{ protocol.criteria.languages | join(', ') }}
+{% endif %}
+{% endif %}
+{% if protocol.gold_standard %}
+- **Gold Standard:** {{ protocol.gold_standard | length }} registros
+{% endif %}
+
+{% endif %}
+{% if counts %}
+## Fluxo PRISMA
+
+- **Total Identificado:** {{ counts.total_identified }}
+- **Duplicatas Removidas:** {{ counts.duplicates_removed }}
+- **Registros Triados (Screened):** {{ counts.screened }}
+- **Registros Excluídos:** {{ counts.total_excluded_screening }}
+- **Registros Incluídos:** {{ counts.included }}
+
+{% if counts.identified %}
+### Identificação por Fonte
+| Fonte | Identificados |
+| --- | --- |
+{% for src, cnt in counts.identified.items() %}
+| {{ src }} | {{ cnt }} |
+{% endfor %}
+{% endif %}
+
+{% if counts.excluded_screening %}
+### Motivos de Exclusão
+| Motivo | Quantidade |
+| --- | --- |
+{% for reason, cnt in counts.excluded_screening.items() %}
+| {{ reason }} | {{ cnt }} |
+{% endfor %}
+{% endif %}
+
+{% if mermaid_diagram %}
+### Diagrama PRISMA
+
+```mermaid
+{{ mermaid_diagram }}
+```
+{% endif %}
+
+{% endif %}
+{% if metrics %}
+## Métricas
+
+{% if metrics_is_list %}
+| Estratégia | Precisão | Recall | Especificidade | F1 | Acurácia | NNR | Melhor |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+{% for item in metrics %}
+| {{ item.name }} | {{ "%.4f"|format(item.metrics.precision) if item.metrics and item.metrics.precision is not none else (item.precision if item.precision is defined and item.precision is not none else "N/A") }} | {{ "%.4f"|format(item.metrics.recall) if item.metrics and item.metrics.recall is not none else (item.recall if item.recall is defined and item.recall is not none else "N/A") }} | {{ "%.4f"|format(item.metrics.specificity) if item.metrics and item.metrics.specificity is not none else (item.specificity if item.specificity is defined and item.specificity is not none else "N/A") }} | {{ "%.4f"|format(item.metrics.f1) if item.metrics and item.metrics.f1 is not none else (item.f1 if item.f1 is defined and item.f1 is not none else "N/A") }} | {{ "%.4f"|format(item.metrics.accuracy) if item.metrics and item.metrics.accuracy is not none else (item.accuracy if item.accuracy is defined and item.accuracy is not none else "N/A") }} | {{ "%.2f"|format(item.metrics.nnr) if item.metrics and item.metrics.nnr is not none else (item.nnr if item.nnr is defined and item.nnr is not none else "N/A") }} | {{ "Sim" if (item.is_best or item.best) else "Não" }} |
+{% endfor %}
+{% else %}
+| Métrica | Valor |
+| --- | --- |
+| Precisão | {{ "%.4f"|format(metrics.precision) if metrics.precision is defined and metrics.precision is not none else "N/A" }} |
+| Recall | {{ "%.4f"|format(metrics.recall) if metrics.recall is defined and metrics.recall is not none else "N/A" }} |
+| Especificidade | {{ "%.4f"|format(metrics.specificity) if metrics.specificity is defined and metrics.specificity is not none else "N/A" }} |
+| F1 | {{ "%.4f"|format(metrics.f1) if metrics.f1 is defined and metrics.f1 is not none else "N/A" }} |
+| Acurácia | {{ "%.4f"|format(metrics.accuracy) if metrics.accuracy is defined and metrics.accuracy is not none else "N/A" }} |
+| NNR | {{ "%.2f"|format(metrics.nnr) if metrics.nnr is defined and metrics.nnr is not none else "N/A" }} |
+{% if metrics.confusion %}
+| TP | {{ metrics.confusion.tp }} |
+| FP | {{ metrics.confusion.fp }} |
+| FN | {{ metrics.confusion.fn }} |
+| TN | {{ metrics.confusion.tn if metrics.confusion.tn is defined and metrics.confusion.tn is not none else "N/A" }} |
+{% endif %}
+{% endif %}
+
+{% endif %}
+{% if corpus %}
+## Cobertura
+
+{% if coverage_by_year %}
+### Cobertura por Ano
+| Ano | Registros |
+| --- | --- |
+{% for yr, cnt in coverage_by_year.items() %}
+| {{ yr }} | {{ cnt }} |
+{% endfor %}
+{% endif %}
+
+{% if coverage_by_source %}
+### Cobertura por Fonte
+| Fonte | Registros |
+| --- | --- |
+{% for src, cnt in coverage_by_source.items() %}
+| {{ src }} | {{ cnt }} |
+{% endfor %}
+{% endif %}
+
+{% endif %}
+{% if provenance %}
+## Proveniência
+
+- **Versão do easyscielo:** {{ provenance.easyscielo_version or provenance.get('easyscielo.__version__') or 'N/A' }}
+- **Timestamp (UTC):** {{ provenance.timestamp_utc or 'N/A' }}
+- **SHA-256 do Corpus:** {{ provenance.corpus_sha256 or 'N/A' }}
+{% if provenance.protocol_title %}
+- **Título do Protocolo:** {{ provenance.protocol_title }}
+{% endif %}
+
+{% if provenance.stage_counts %}
+### Registros por Estágio
+| Estágio | Quantidade |
+| --- | --- |
+{% for stg, cnt in provenance.stage_counts.items() %}
+| {{ stg }} | {{ cnt }} |
+{% endfor %}
+{% endif %}
+
+{% if provenance.source_counts %}
+### Registros por Fonte
+| Fonte | Quantidade |
+| --- | --- |
+{% for src, cnt in provenance.source_counts.items() %}
+| {{ src }} | {{ cnt }} |
+{% endfor %}
+{% endif %}
+
+{% endif %}

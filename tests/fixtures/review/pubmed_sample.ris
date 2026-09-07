@@ -1,0 +1,84 @@
+# Synthetic RIS test fixture for easyscielo review parser tests.
+# Contains 5 synthetic PubMed/RIS records with multi-author tags (AU), DOIs (DO),
+# multi-line abstracts (AB), accented characters, and one record without a DOI.
+
+TY  - JOUR
+TI  - Estudo sobre vacinação e imunologia em populações vulneráveis no Brasil
+AU  - Silva, João Carlos
+AU  - Santos, Maria Eduarda
+AU  - Oliveira, Ana Paula
+JO  - Revista de Saúde Pública
+VL  - 57
+IS  - 1
+SP  - 101
+EP  - 112
+PY  - 2023
+DO  - 10.11606/s1518-8787.2023057004500
+AB  - O objetivo deste estudo é analisar a cobertura vacinal em regiões vulneráveis.
+  Foram avaliados dados epidemiológicos coletados entre 2020 e 2022.
+  Os resultados indicam a necessidade de políticas públicas mais integradas.
+ER  - 
+
+TY  - JOUR
+TI  - Advances in Machine Learning Applications for Medical Imaging and Diagnostics
+AU  - Dupont, Jean-Pierre
+AU  - Müller, Hans
+JO  - Journal of Medical Artificial Intelligence
+VL  - 12
+IS  - 4
+SP  - 215
+EP  - 228
+PY  - 2022
+DO  - 10.1016/j.jmai.2022.04.012
+AB  - Machine learning models have revolutionized automated diagnostics in radiological imaging.
+  This paper surveys recent advancements in convolutional neural networks and transformer-based models.
+  Key challenges regarding interpretability and generalization across clinical sites are discussed.
+ER  - 
+
+TY  - JOUR
+TI  - Análise histórica da saúde coletiva na América Latina durante o século XX
+AU  - Gómez, Fernando
+AU  - Gonçalves, Beatriz
+JO  - Cadernos de História da Ciência
+VL  - 15
+IS  - 2
+SP  - 45
+EP  - 60
+PY  - 2021
+AB  - Este trabalho apresenta uma revisão historiográfica sobre o desenvolvimento da saúde coletiva.
+  Discutem-se as influências sociais, políticas e econômicas na formação dos sistemas de saúde.
+  Conclui-se que os movimentos sociais desempenharam papel fundamental no reconhecimento de direitos.
+ER  - 
+
+TY  - JOUR
+TI  - Impacto das mudanças climáticas na biodiversidade de ecossistemas tropicais
+AU  - Pereira, Cláudio
+AU  - Fernández, Lucía
+AU  - Souza, Thiago
+JO  - Acta Botanica Brasilica
+VL  - 34
+IS  - 3
+SP  - 389
+EP  - 402
+PY  - 2020
+DO  - 10.1590/0102-330620200142
+AB  - As alterações no microclima global afetam diretamente a distribuição de espécies vegetais em florestas tropicais.
+  Apresentamos dados de amostragem longitudinal coletados ao longo de dez anos.
+  Observou-se uma redução significativa em populações de plantas endêmicas.
+ER  - 
+
+TY  - JOUR
+TI  - Telemedicina e atenção primária: avaliação da satisfação de usuários no SUS
+AU  - Ribeiro, Vanessa
+AU  - Costa, André
+JO  - Ciência & Saúde Coletiva
+VL  - 29
+IS  - 5
+SP  - 1530
+EP  - 1541
+PY  - 2024
+DO  - 10.1590/1413-81232024295.08122023
+AB  - A expansão da telemedicina redefiniu o acesso aos serviços de saúde durante e após a pandemia.
+  Este artigo avalia a percepção de pacientes atendidos em unidades básicas de saúde.
+  Constatou-se alto índice de aprovação do serviço remoto com ressalvas quanto à conectividade.
+ER  - 

@@ -29,3 +29,9 @@ class ValidationError(ScieloError):
     """Raised when input parameters (like queries) are invalid."""
 
     pass
+
+
+class ReviewError(ScieloError):
+    """Raised when a review operation is invalid."""
+
+    pass

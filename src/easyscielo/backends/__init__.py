@@ -1,9 +1,19 @@
+from typing import Callable
+
 from .articlemeta import ArticleMetaBackend, article_to_record
 from .base import Backend, BackendError
+from .crossref import CrossrefBackend
 from .oai import OaiBackend, parse_oai_record
+from .openalex import OpenAlexBackend
 from .search_html import SearchBackend
 
-_VALID_BACKENDS = {"search", "articlemeta", "oai"}
+_BACKENDS: dict[str, Callable[[], Backend]] = {
+    "search": SearchBackend,
+    "articlemeta": ArticleMetaBackend,
+    "oai": OaiBackend,
+    "openalex": OpenAlexBackend,
+    "crossref": CrossrefBackend,
+}
 
 
 def get_backend(name: str) -> Backend:
@@ -19,20 +29,13 @@ def get_backend(name: str) -> Backend:
     Raises:
         BackendError: If the requested backend name is unknown.
     """
-    if name not in _VALID_BACKENDS:
-        valid = ", ".join(f"{k!r}" for k in sorted(_VALID_BACKENDS))
+    if name not in _BACKENDS:
+        valid = ", ".join(f"{k!r}" for k in sorted(_BACKENDS))
         raise BackendError(
             f"Unknown backend {name!r}. Valid backend names are: {valid}."
         )
 
-    if name == "search":
-        return SearchBackend()
-    if name == "articlemeta":
-        return ArticleMetaBackend()
-    if name == "oai":
-        return OaiBackend()
-
-    raise BackendError(f"Backend {name!r} not implemented.")
+    return _BACKENDS[name]()
 
 
 __all__ = [

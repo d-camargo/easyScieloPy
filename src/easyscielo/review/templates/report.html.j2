@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório de Revisão Sistemática</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 2rem; color: #333; line-height: 1.6; }
+        h1, h2, h3 { color: #1e293b; }
+        table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+        th, td { border: 1px solid #cbd5e1; padding: 8px 12px; text-align: left; }
+        th { background-color: #f1f5f9; }
+        code, pre { background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px; padding: 2px 6px; }
+        pre.mermaid { padding: 1rem; }
+        ul { padding-left: 1.5rem; }
+    </style>
+</head>
+<body>
+    <h1>Relatório de Revisão Sistemática</h1>
+
+    {% if protocol %}
+    <section id="protocol">
+        <h2>Protocolo</h2>
+        <ul>
+            {% if protocol.title %}
+            <li><strong>Título:</strong> {{ protocol.title }}</li>
+            {% endif %}
+            {% if protocol.question %}
+            <li><strong>Pergunta de Pesquisa:</strong> {{ protocol.question }}</li>
+            {% endif %}
+            {% if protocol.queries %}
+            <li><strong>Buscas (Queries):</strong> {{ protocol.queries | join(', ') }}</li>
+            {% endif %}
+            {% if protocol.sources %}
+            <li><strong>Fontes:</strong> {{ protocol.sources | join(', ') }}</li>
+            {% endif %}
+            {% if protocol.query_filters %}
+            <li><strong>Filtros:</strong> {{ protocol.query_filters }}</li>
+            {% endif %}
+            {% if protocol.criteria %}
+            <li><strong>Critérios de Seleção:</strong>
+                <ul>
+                    {% if protocol.criteria.include_terms %}
+                    <li><strong>Inclusão:</strong> {{ protocol.criteria.include_terms | join(', ') }}</li>
+                    {% endif %}
+                    {% if protocol.criteria.exclude_terms %}
+                    <li><strong>Exclusão:</strong> {{ protocol.criteria.exclude_terms | join(', ') }}</li>
+                    {% endif %}
+                    {% if protocol.criteria.year_min %}
+                    <li><strong>Ano Mínimo:</strong> {{ protocol.criteria.year_min }}</li>
+                    {% endif %}
+                    {% if protocol.criteria.year_max %}
+                    <li><strong>Ano Máximo:</strong> {{ protocol.criteria.year_max }}</li>
+                    {% endif %}
+                    {% if protocol.criteria.languages %}
+                    <li><strong>Idiomas:</strong> {{ protocol.criteria.languages | join(', ') }}</li>
+                    {% endif %}
+                </ul>
+            </li>
+            {% endif %}
+            {% if protocol.gold_standard %}
+            <li><strong>Gold Standard:</strong> {{ protocol.gold_standard | length }} registros</li>
+            {% endif %}
+        </ul>
+    </section>
+    {% endif %}
+
+    {% if counts %}
+    <section id="prisma">
+        <h2>Fluxo PRISMA</h2>
+        <ul>
+            <li><strong>Total Identificado:</strong> {{ counts.total_identified }}</li>
+            <li><strong>Duplicatas Removidas:</strong> {{ counts.duplicates_removed }}</li>
+            <li><strong>Registros Triados (Screened):</strong> {{ counts.screened }}</li>
+            <li><strong>Registros Excluídos:</strong> {{ counts.total_excluded_screening }}</li>
+            <li><strong>Registros Incluídos:</strong> {{ counts.included }}</li>
+        </ul>
+
+        {% if counts.identified %}
+        <h3>Identificação por Fonte</h3>
+        <table>
+            <thead>
+                <tr><th>Fonte</th><th>Identificados</th></tr>
+            </thead>
+            <tbody>
+                {% for src, cnt in counts.identified.items() %}
+                <tr><td>{{ src }}</td><td>{{ cnt }}</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+
+        {% if counts.excluded_screening %}
+        <h3>Motivos de Exclusão</h3>
+        <table>
+            <thead>
+                <tr><th>Motivo</th><th>Quantidade</th></tr>
+            </thead>
+            <tbody>
+                {% for reason, cnt in counts.excluded_screening.items() %}
+                <tr><td>{{ reason }}</td><td>{{ cnt }}</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+
+        {% if mermaid_diagram %}
+        <h3>Diagrama PRISMA</h3>
+        <pre class="mermaid">
+{{ mermaid_diagram }}
+        </pre>
+        {% endif %}
+    </section>
+    {% endif %}
+
+    {% if metrics %}
+    <section id="metrics">
+        <h2>Métricas</h2>
+        {% if metrics_is_list %}
+        <table>
+            <thead>
+                <tr><th>Estratégia</th><th>Precisão</th><th>Recall</th><th>Especificidade</th><th>F1</th><th>Acurácia</th><th>NNR</th><th>Melhor</th></tr>
+            </thead>
+            <tbody>
+                {% for item in metrics %}
+                <tr>
+                    <td>{{ item.name }}</td>
+                    <td>{{ "%.4f"|format(item.metrics.precision) if item.metrics and item.metrics.precision is not none else (item.precision if item.precision is defined and item.precision is not none else "N/A") }}</td>
+                    <td>{{ "%.4f"|format(item.metrics.recall) if item.metrics and item.metrics.recall is not none else (item.recall if item.recall is defined and item.recall is not none else "N/A") }}</td>
+                    <td>{{ "%.4f"|format(item.metrics.specificity) if item.metrics and item.metrics.specificity is not none else (item.specificity if item.specificity is defined and item.specificity is not none else "N/A") }}</td>
+                    <td>{{ "%.4f"|format(item.metrics.f1) if item.metrics and item.metrics.f1 is not none else (item.f1 if item.f1 is defined and item.f1 is not none else "N/A") }}</td>
+                    <td>{{ "%.4f"|format(item.metrics.accuracy) if item.metrics and item.metrics.accuracy is not none else (item.accuracy if item.accuracy is defined and item.accuracy is not none else "N/A") }}</td>
+                    <td>{{ "%.2f"|format(item.metrics.nnr) if item.metrics and item.metrics.nnr is not none else (item.nnr if item.nnr is defined and item.nnr is not none else "N/A") }}</td>
+                    <td>{{ "Sim" if (item.is_best or item.best) else "Não" }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <table>
+            <thead>
+                <tr><th>Métrica</th><th>Valor</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Precisão</td><td>{{ "%.4f"|format(metrics.precision) if metrics.precision is defined and metrics.precision is not none else "N/A" }}</td></tr>
+                <tr><td>Recall</td><td>{{ "%.4f"|format(metrics.recall) if metrics.recall is defined and metrics.recall is not none else "N/A" }}</td></tr>
+                <tr><td>Especificidade</td><td>{{ "%.4f"|format(metrics.specificity) if metrics.specificity is defined and metrics.specificity is not none else "N/A" }}</td></tr>
+                <tr><td>F1</td><td>{{ "%.4f"|format(metrics.f1) if metrics.f1 is defined and metrics.f1 is not none else "N/A" }}</td></tr>
+                <tr><td>Acurácia</td><td>{{ "%.4f"|format(metrics.accuracy) if metrics.accuracy is defined and metrics.accuracy is not none else "N/A" }}</td></tr>
+                <tr><td>NNR</td><td>{{ "%.2f"|format(metrics.nnr) if metrics.nnr is defined and metrics.nnr is not none else "N/A" }}</td></tr>
+                {% if metrics.confusion %}
+                <tr><td>TP</td><td>{{ metrics.confusion.tp }}</td></tr>
+                <tr><td>FP</td><td>{{ metrics.confusion.fp }}</td></tr>
+                <tr><td>FN</td><td>{{ metrics.confusion.fn }}</td></tr>
+                <tr><td>TN</td><td>{{ metrics.confusion.tn if metrics.confusion.tn is defined and metrics.confusion.tn is not none else "N/A" }}</td></tr>
+                {% endif %}
+            </tbody>
+        </table>
+        {% endif %}
+    </section>
+    {% endif %}
+
+    {% if corpus %}
+    <section id="coverage">
+        <h2>Cobertura</h2>
+        {% if coverage_by_year %}
+        <h3>Cobertura por Ano</h3>
+        <table>
+            <thead>
+                <tr><th>Ano</th><th>Registros</th></tr>
+            </thead>
+            <tbody>
+                {% for yr, cnt in coverage_by_year.items() %}
+                <tr><td>{{ yr }}</td><td>{{ cnt }}</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+
+        {% if coverage_by_source %}
+        <h3>Cobertura por Fonte</h3>
+        <table>
+            <thead>
+                <tr><th>Fonte</th><th>Registros</th></tr>
+            </thead>
+            <tbody>
+                {% for src, cnt in coverage_by_source.items() %}
+                <tr><td>{{ src }}</td><td>{{ cnt }}</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+    </section>
+    {% endif %}
+
+    {% if provenance %}
+    <section id="provenance">
+        <h2>Proveniência</h2>
+        <ul>
+            <li><strong>Versão do easyscielo:</strong> {{ provenance.easyscielo_version or provenance.get('easyscielo.__version__') or 'N/A' }}</li>
+            <li><strong>Timestamp (UTC):</strong> {{ provenance.timestamp_utc or 'N/A' }}</li>
+            <li><strong>SHA-256 do Corpus:</strong> <code>{{ provenance.corpus_sha256 or 'N/A' }}</code></li>
+            {% if provenance.protocol_title %}
+            <li><strong>Título do Protocolo:</strong> {{ provenance.protocol_title }}</li>
+            {% endif %}
+        </ul>
+
+        {% if provenance.stage_counts %}
+        <h3>Registros por Estágio</h3>
+        <table>
+            <thead>
+                <tr><th>Estágio</th><th>Quantidade</th></tr>
+            </thead>
+            <tbody>
+                {% for stg, cnt in provenance.stage_counts.items() %}
+                <tr><td>{{ stg }}</td><td>{{ cnt }}</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+
+        {% if provenance.source_counts %}
+        <h3>Registros por Fonte</h3>
+        <table>
+            <thead>
+                <tr><th>Fonte</th><th>Quantidade</th></tr>
+            </thead>
+            <tbody>
+                {% for src, cnt in provenance.source_counts.items() %}
+                <tr><td>{{ src }}</td><td>{{ cnt }}</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+    </section>
+    {% endif %}
+</body>
+</html>
