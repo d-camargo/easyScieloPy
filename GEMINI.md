@@ -9,6 +9,10 @@
 
 O `easyscielopy` (`easyscielo`) é uma biblioteca Python para consulta, extração e parseamento programático e reprodutível de artigos e metadados da plataforma científica [SciELO](https://scielo.org). O projeto oferece suporte a três backends de busca e extração (`search`, `articlemeta` e `oai`), conversão simplificada de resultados para Pandas DataFrames, CSV ou dicionários, além de uma interface de linha de comando (CLI).
 
+## Quem consome esta biblioteca
+
+O **sci-team** (`~/projects/sci-team`, canal `#sci-team`) usa o subpacote `review/` como motor de revisão sistemática, chamando **`/home/diego/projects/easyscielopy/.venv/bin/easyscielo review run --protocol <p.json> --out-dir <dir>` por subprocess** — nunca `import easyscielo`. Ele depende dos 5 arquivos que esse comando grava no `--out-dir` (`corpus.csv`, `included.ris`, `prisma.json`, `report.md`, `provenance.json`) e dos nomes das chaves do `prisma.json`. **Mudar esses nomes quebra o sci-team em silêncio** — se mudar, mude junto `src/revisao.py` lá. A divisão de papéis (aqui é busca e revisão; a base de citação é o Zotero, do lado de lá) está na D28 do `GEMINI.md` do sci-team e em `~/.hermes/MAPA.md` §7.
+
 ## Layout do Código (`src/easyscielo/`)
 
 - `src/easyscielo/__init__.py`: Ponto de entrada e exportações da API pública.
