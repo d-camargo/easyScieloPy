@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "limit": 5,
+    "offset": 0,
+    "filter": {
+      "processing_date": {
+        "$gte": "1900-01-01",
+        "$lte": "2026-09-06"
+      },
+      "collection": "scl",
+      "code_title": "0102-311X"
+    },
+    "total": 9053
+  },
+  "objects": [
+    {
+      "code": "S0102-311X2001000300027",
+      "collection": "scl",
+      "processing_date": "2001-06-05"
+    },
+    {
+      "code": "S0102-311X2001000300009",
+      "collection": "scl",
+      "processing_date": "2001-06-05"
+    },
+    {
+      "code": "S0102-311X2001000300014",
+      "collection": "scl",
+      "processing_date": "2001-06-05"
+    },
+    {
+      "code": "S0102-311X2001000300022",
+      "collection": "scl",
+      "processing_date": "2001-06-05"
+    },
+    {
+      "code": "S0102-311X2001000300028",
+      "collection": "scl",
+      "processing_date": "2001-06-05"
+    }
+  ]
+}

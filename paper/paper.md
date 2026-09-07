@@ -1,7 +1,7 @@
 ---
-title: 'easyScieloPack: An R package for programmatic and reproducible literature search in the SciELO database'
+title: 'easyScieloPy: A Python package for programmatic and reproducible literature search in the SciELO database'
 tags:
-  - R
+  - Python
   - literature review
   - reproducibility
   - bibliographic databases
@@ -27,66 +27,60 @@ bibliography: paper.bib
 
 The initial phase of a literature review, searching for and documenting a corpus of academic works, is often overlooked and poorly documented, despite being critical to the review's integrity [@Brocke:2009; @Cram:2020]. Programmatic approaches can enhance reproducibility by embedding search logic directly into code, enabling automated, traceable, and transparent workflows as recommended by the Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA-S) [@Rethlefsen:2021]. However, such tools are rare for regionally focused databases.
 
-To address this gap for the SciELO (Scientific Electronic Library Online) database, we developed `easyScieloPack`, an R package that provides a scriptable interface to SciELO. It allows users to programmatically construct, execute, and document complex literature searches with filters for year, country, language, journal, and subject category. The package returns results as tidy data frames containing key metadata (title, authors, DOI, abstract), making the output immediately ready for downstream analysis, visualization, or export.
+To address this gap for the SciELO (Scientific Electronic Library Online) database, we developed `easyScieloPy`, a Python package that provides a scriptable interface to SciELO. The package abstracts query construction, HTTP resilience, and data parsing across three distinct backends: SciELO's web search engine (`search`), the official ArticleMeta REST API (`articlemeta`), and the OAI-PMH provider (`oai`). Results are normalized into structured data models and can be converted to Pandas DataFrames, CSV files, or standard dictionaries for downstream bibliometric analysis.
 
 # Statement of need
 
 SciELO is a crucial open-access platform indexing peer-reviewed journals from Latin America, the Caribbean, South Africa, Portugal, and Spain. Its importance is underscored by the significant underrepresentation of these regions' output in major commercial databases like Scopus and Web of Science, which index only a small fraction of Latin American journals and systematically underrepresent non-English publications [@Cespedes:2021].
 
-Researchers relying on SciELO are currently forced to use manual, point-and-click searches. This process is inherently difficult to document precisely, impossible to reproduce exactly, and inefficient for testing complex search strategies or updating reviews. While programmatic tools like `easyPubMed` [@Fantini:2025] exist for other databases, no equivalent open-source solution has been available for SciELO. `easyScieloPack` meets this need by providing a programmable and transparent workflow for researchers, librarians, and students conducting systematic reviews or bibliometric analyses who require a reproducible method to retrieve literature from this essential database.
+Researchers relying on SciELO have traditionally used manual searches on the web portal. This process is inherently difficult to document precisely, impossible to reproduce exactly, and inefficient for testing complex search strategies or updating reviews. While programmatic tools like `easyPubMed` [@Fantini:2025] exist for other databases, no equivalent open-source Python library has been available for SciELO. `easyScieloPy` meets this need by providing a programmable and transparent workflow for researchers, librarians, and data scientists conducting systematic reviews or bibliometric analyses who require a reproducible method to retrieve literature from this essential database.
 
 # Installation and Usage
 
-The `easyScieloPack` package is available on the Comprehensive R Archive Network (CRAN). The released version can be installed from an R session using:
+`easyScieloPy` is available on PyPI and can be installed using `pip`:
 
-```r
-install.packages("easyScieloPack")
+```bash
+pip install easyscielopy
 ```
 
-The development version can be installed from GitHub using the remotes package:
+To enable support for Pandas DataFrame exports, install with optional dependencies:
 
-```r
-remotes::install_github("Programa-ISA/easyScieloPack")
+```bash
+pip install "easyscielopy[pandas]"
 ```
 
-A basic workflow to search for articles is straightforward:
+## Backends and Data Sources
 
-```r
-library(easyScieloPack)
+The package provides three backends for fetching article metadata:
 
-# Search for articles in English from Colombian journals
-results_en <- search_scielo(
-  query = "Machine Learning",
-  languages = "en", 
-  collections = "Colombia"
+- **Web Search Engine (`search`, default):** Performs full-text queries against SciELO's search service (`search.scielo.org`), supporting filters for year range, country collections, article languages, subject categories, and journal titles.
+- **ArticleMeta REST API (`articlemeta`):** Consumes the official SciELO ArticleMeta REST API, providing detailed structured JSON records for advanced metadata analysis.
+- **OAI-PMH Provider (`oai`):** Connects to SciELO's OAI-PMH endpoint to retrieve standard Dublin Core XML metadata records suitable for mass harvesting and digital preservation.
+
+## Basic Workflow
+
+A basic workflow using `easyScieloPy` in Python is straightforward:
+
+```python
+from easyscielo import search_scielo, to_dataframe
+
+# Search for articles using the default web engine backend
+articles = search_scielo(
+    query="dengue",
+    backend="search",
+    collections=["bra", "col"],
+    languages=["es", "pt"],
+    year_start=2020,
+    year_end=2023,
+    n_max=20,
 )
 
-# Search for articles in Spanish from the same collection  
-results_es <- search_scielo(
-  query = "Machine Learning",
-  languages = "es", 
-  collections = "Colombia"
-)
+# Display extracted articles
+for art in articles:
+    print(f"[{art.year}] {art.title} ({art.journal})")
 
-# Compare the number of results
-nrow(results_en)  # Returns 86 results in English
-nrow(results_es)  # Returns 77 results in Spanish
-```
-
-The package supports more precise searches by combining multiple filters:
-
-```r
-search_scielo(
-  query,                  # Search term (e.g., "climate change")
-  lang = "en",            # Interface language for SciELO website
-  n_max = NULL,           # Maximum number of results to return  
-  journals = NULL,        # Vector of journal names to filter
-  collections = NULL,     # Country name or ISO code
-  languages = NULL,       # Vector of article languages
-  categories = NULL,      # Vector of subject categories
-  year_start = NULL,      # Start year for filtering articles
-  year_end = NULL         # End year for filtering articles
-)
+# Convert results into a Pandas DataFrame
+df = to_dataframe(articles)
 ```
 
 # Acknowledgements
@@ -94,17 +88,3 @@ search_scielo(
 We would like to thank Berendina van Wendel de Joode, coordinator of the Infants' Environmental Health (ISA) Program, for enabling us to test the package in real-world research contexts and for her support throughout its development.
 
 # References
-
-
-
-
-
-
-
-
-
-
-
-
-
-

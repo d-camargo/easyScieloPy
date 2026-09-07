@@ -1,0 +1,5366 @@
+{
+  "code": "S0102-311X2001000300027",
+  "collection": "scl",
+  "applicable": "True",
+  "article": {
+    "v30": [
+      {
+        "_": "Cad. Saúde Pública"
+      }
+    ],
+    "v31": [
+      {
+        "_": "17"
+      }
+    ],
+    "v32": [
+      {
+        "_": "3"
+      }
+    ],
+    "code": "S0102-311X2001000300027",
+    "v35": [
+      {
+        "_": "0102-311X"
+      }
+    ],
+    "v38": [
+      {
+        "_": "TAB"
+      }
+    ],
+    "v10": [
+      {
+        "1": "A01",
+        "s": "Núñez",
+        "r": "ND",
+        "_": "",
+        "n": "Fidel Angel"
+      },
+      {
+        "1": "A01",
+        "s": "Finlay",
+        "r": "ND",
+        "_": "",
+        "n": "Carlos M."
+      }
+    ],
+    "v70": [
+      {
+        "i": "A01",
+        "p": "Cuba",
+        "s": "Ciudad Habana",
+        "e": "fan@ipk.sld.cu",
+        "_": "Instituto de Medicina Tropical Pedro Kourí"
+      }
+    ],
+    "v71": [
+      {
+        "_": "rn"
+      }
+    ],
+    "v72": [
+      {
+        "_": "32"
+      }
+    ],
+    "v882": [
+      {
+        "v": "17",
+        "_": "",
+        "n": "3"
+      }
+    ],
+    "v880": [
+      {
+        "_": "S0102-311X2001000300027"
+      }
+    ],
+    "v158": [
+      {
+        "_": "nd"
+      }
+    ],
+    "v117": [
+      {
+        "_": "other"
+      }
+    ],
+    "v40": [
+      {
+        "_": "es"
+      }
+    ],
+    "v42": [
+      {
+        "_": "1"
+      }
+    ],
+    "v14": [
+      {
+        "l": "724",
+        "_": "",
+        "f": "719"
+      }
+    ],
+    "v85": [
+      {
+        "i": "1",
+        "d": "nd",
+        "_": ""
+      },
+      {
+        "i": "1",
+        "k": "Quality Control",
+        "t": "m",
+        "_": "",
+        "l": "en"
+      },
+      {
+        "i": "1",
+        "k": "Parasites",
+        "t": "m",
+        "_": "",
+        "l": "en"
+      },
+      {
+        "i": "1",
+        "k": "Parasitology",
+        "t": "m",
+        "_": "",
+        "l": "en"
+      },
+      {
+        "i": "2",
+        "d": "nd",
+        "_": ""
+      },
+      {
+        "i": "2",
+        "k": "Control de Calidad",
+        "t": "m",
+        "_": "",
+        "l": "es"
+      },
+      {
+        "i": "2",
+        "k": "Parasitos",
+        "t": "m",
+        "_": "",
+        "l": "es"
+      },
+      {
+        "i": "2",
+        "k": "Parasitología",
+        "t": "m",
+        "_": "",
+        "l": "es"
+      }
+    ],
+    "v706": [
+      {
+        "_": "h"
+      }
+    ],
+    "v65": [
+      {
+        "_": "20010600"
+      }
+    ],
+    "v83": [
+      {
+        "a": "A national training project in the diagnosis of intestinal parasites was conducted in 1997. An initial national course was followed respectively by courses in the Central, Eastern, and Western Provinces. Our results showed that Cryptosporidium parvum, Cyclospora cayetanensis, and leukocytes showed a significantly lower percentage of errors after the training than before (p < 0.01). The same occurred with Entamoeba histolytica/E. dispar and Chilomastix mesnilii (p < 0.05). Among the helminths, Taenia spp., Fasciola hepatica, and hookworm showed significantly fewer errors after the training (p < 0.01). In the other specimens, few mistakes were found both at the beginning and after the training, and the percentage of errors did not change (p > 0.05). Furthermore, when comparing scores before and after training, a significant increase in median scores appeared in the Central Provinces (p < 0.05), Western Provinces (p < 0.01), and in the entire series (p < 0.01). The results showed the effectiveness of this intervention; these periodic mandatory training courses should be developed together with national programs for quality assessment in Parasitology.",
+        "l": "en",
+        "_": ""
+      },
+      {
+        "a": "En 1997, se desarrolló un proyecto nacional de adiestramiento integral para el diagnóstico de las parasitosis intestinales, el que incluyó 4 cursos; uno com carácter nacional, y otros 3 en las provincias centrales, orientales y occidentales. Al comparar los errores diagnósticos, vimos que Cryptosporidium parvum, Cyclospora cayetanensis y los leucocitos mostraron un porcentaje significativamente menor de fallas después del curso que al comienzo (p < 0,01), al igual que con Entamoeba histolytica/E. dispar y Chilomastix mesnilii (p < 0,05). Entre los helmintos, Taenia sp., Fasciola hepatica y los ancylostomídeos redujeron significativamente el número de fallas (p < 0,01). En el resto de las especies se encontraron muy pocos errores, y los porcentajes de fallas no variaron al finalizar los cursos (p > 0,05). Por otra parte, al comparar las medias de las puntuaciones antes y después de los cursos, se encontró un aumento significativo en el curso de las provincias centrales (p<0,05), en las occidentales (p < 0,01), y en la totalidad (p < 0,01), lo que demonstró la efectividad a corto plazo de esta intervención. Sin embargo, pensamos que estas actividades de educación continuada deberian seguirse junto com programas nacionales para el control de la calidad.",
+        "l": "es",
+        "_": ""
+      }
+    ],
+    "collection": "scl",
+    "v709": [
+      {
+        "_": "article"
+      }
+    ],
+    "v708": [
+      {
+        "_": "1"
+      }
+    ],
+    "v2": [
+      {
+        "_": "S0102-311X(01)01700327"
+      }
+    ],
+    "v121": [
+      {
+        "_": "27"
+      }
+    ],
+    "v992": [
+      {
+        "_": "scl"
+      }
+    ],
+    "v701": [
+      {
+        "_": "1"
+      }
+    ],
+    "v700": [
+      {
+        "_": "2"
+      }
+    ],
+    "v936": [
+      {
+        "i": "0102-311X",
+        "y": "2001",
+        "_": "",
+        "o": "3"
+      }
+    ],
+    "v702": [
+      {
+        "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+      }
+    ],
+    "v705": [
+      {
+        "_": "S"
+      }
+    ],
+    "processing_date": "2001-06-05",
+    "v91": [
+      {
+        "_": "20010605"
+      }
+    ],
+    "v1": [
+      {
+        "_": "br1.1"
+      }
+    ],
+    "v49": [
+      {
+        "_": "CSP030"
+      }
+    ],
+    "v4": [
+      {
+        "_": "v17n3"
+      }
+    ],
+    "v12": [
+      {
+        "l": "es",
+        "_": "Adiestramiento en el diagnóstico de las parasitosis intestinales en la red de laboratorios de Cuba"
+      },
+      {
+        "l": "en",
+        "_": "Training for diagnosis of intestinal parasites in the national laboratory system in Cuba"
+      }
+    ],
+    "v120": [
+      {
+        "_": "3.1"
+      }
+    ]
+  },
+  "citations": [
+    {
+      "v30": [
+        {
+          "_": "Journal of Parasitology"
+        }
+      ],
+      "v31": [
+        {
+          "_": "83"
+        }
+      ],
+      "code": "S0102-311X200100030002700001",
+      "v35": [
+        {
+          "_": "0022-3395"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Some reflections on the teaching of Parasitology"
+        }
+      ],
+      "v10": [
+        {
+          "s": "ANDERSON",
+          "r": "ND",
+          "_": "",
+          "n": "R. C."
+        }
+      ],
+      "v14": [
+        {
+          "_": "982-984"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Journal of parasitology"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700001"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "1"
+        }
+      ],
+      "v700": [
+        {
+          "_": "101"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "MMWR"
+        }
+      ],
+      "v31": [
+        {
+          "_": "46"
+        }
+      ],
+      "code": "S0102-311X200100030002700002",
+      "v35": [
+        {
+          "_": "0149-2195"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Outbreaks of pseudo-infection with Cyclospora and Cryptosporidium"
+        }
+      ],
+      "v10": [
+        {
+          "r": "ND",
+          "_": ""
+        },
+        {
+          "_": "ANONYMOUS"
+        }
+      ],
+      "v14": [
+        {
+          "_": "354-358"
+        }
+      ],
+      "v801": [
+        {
+          "_": "MMWR"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700002"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "2"
+        }
+      ],
+      "v700": [
+        {
+          "_": "102"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Computerized Methods and Programs in Biomedicine"
+        }
+      ],
+      "v31": [
+        {
+          "_": "47"
+        }
+      ],
+      "code": "S0102-311X200100030002700003",
+      "v12": [
+        {
+          "l": "en",
+          "_": "A computer-based book of medical helmintology"
+        }
+      ],
+      "v10": [
+        {
+          "s": "ARFAA",
+          "r": "ND",
+          "_": "",
+          "n": "F."
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700003"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v710": [
+        {
+          "_": "2"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19950000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1995"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v14": [
+        {
+          "_": "253-255"
+        }
+      ],
+      "v701": [
+        {
+          "_": "3"
+        }
+      ],
+      "v700": [
+        {
+          "_": "103"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Parasitology Today"
+        }
+      ],
+      "v31": [
+        {
+          "_": "13"
+        }
+      ],
+      "code": "S0102-311X200100030002700004",
+      "v35": [
+        {
+          "_": "0169-4707"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "The global burden of intestinal nematode infections - Fifty years on"
+        }
+      ],
+      "v10": [
+        {
+          "s": "CHAN",
+          "r": "ND",
+          "_": "",
+          "n": "M. S."
+        }
+      ],
+      "v14": [
+        {
+          "_": "438-443"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Parasitology today"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700004"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "4"
+        }
+      ],
+      "v700": [
+        {
+          "_": "104"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Acta Tropica"
+        }
+      ],
+      "v31": [
+        {
+          "_": "72"
+        }
+      ],
+      "code": "S0102-311X200100030002700005",
+      "v35": [
+        {
+          "_": "0001-706X"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Prevalence of intestinal parasites in Cuban acquired immunodeficiency syndrome (AIDS) patients"
+        }
+      ],
+      "v10": [
+        {
+          "s": "ESCOBEDO",
+          "r": "ND",
+          "_": "",
+          "n": "A. A."
+        },
+        {
+          "s": "NUÑEZ",
+          "r": "ND",
+          "_": "",
+          "n": "F. A."
+        }
+      ],
+      "v14": [
+        {
+          "_": "125-130"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Acta Tropica"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700005"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19990000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1999"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "5"
+        }
+      ],
+      "v700": [
+        {
+          "_": "105"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Annals of Tropical Medicine & Parasitology"
+        }
+      ],
+      "v31": [
+        {
+          "_": "91"
+        }
+      ],
+      "code": "S0102-311X200100030002700006",
+      "v12": [
+        {
+          "l": "en",
+          "_": "Teaching tropical medicine: A personal view in perspective"
+        }
+      ],
+      "v10": [
+        {
+          "s": "EYCKMANS",
+          "r": "ND",
+          "_": "",
+          "n": "L."
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700006"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v710": [
+        {
+          "_": "2"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v14": [
+        {
+          "_": "743-746"
+        }
+      ],
+      "v701": [
+        {
+          "_": "6"
+        }
+      ],
+      "v700": [
+        {
+          "_": "106"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Memórias do Instituto Oswaldo Cruz"
+        }
+      ],
+      "v31": [
+        {
+          "_": "93"
+        }
+      ],
+      "code": "S0102-311X200100030002700007",
+      "v35": [
+        {
+          "_": "0074-0276"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Overdiagnosis of intestinal amoebiasis associated to serial microscopical examination of faeces: Some precisions on a problem"
+        }
+      ],
+      "v10": [
+        {
+          "s": "FONTE",
+          "r": "ND",
+          "_": "",
+          "n": "L."
+        },
+        {
+          "s": "MONTALVO",
+          "r": "ND",
+          "_": "",
+          "n": "A. M."
+        },
+        {
+          "s": "ALBERTI",
+          "r": "ND",
+          "_": "",
+          "n": "E."
+        },
+        {
+          "s": "NUÑEZ",
+          "r": "ND",
+          "_": "",
+          "n": "F."
+        },
+        {
+          "s": "ROJAS",
+          "r": "ND",
+          "_": "",
+          "n": "L."
+        }
+      ],
+      "v14": [
+        {
+          "_": "799-800"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Memórias do Instituto Oswaldo Cruz"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700007"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19980000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1998"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "7"
+        }
+      ],
+      "v700": [
+        {
+          "_": "107"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Advances in Parasitology"
+        }
+      ],
+      "v31": [
+        {
+          "_": "40"
+        }
+      ],
+      "code": "S0102-311X200100030002700008",
+      "v35": [
+        {
+          "_": "0065-308X"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Human Cryptosporidiosis: Epidemiology, Transmission, Clinical Disease, Treatment, and Diagnosis"
+        }
+      ],
+      "v10": [
+        {
+          "s": "GRIFFITHS",
+          "r": "ND",
+          "_": "",
+          "n": "J. K."
+        }
+      ],
+      "v14": [
+        {
+          "_": "37-85"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Advances in parasitology"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700008"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19980000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1998"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "8"
+        }
+      ],
+      "v700": [
+        {
+          "_": "108"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Revista Cubana de Medicina Tropical"
+        }
+      ],
+      "v31": [
+        {
+          "_": "45"
+        }
+      ],
+      "code": "S0102-311X200100030002700009",
+      "v35": [
+        {
+          "_": "0375-0760"
+        }
+      ],
+      "v12": [
+        {
+          "l": "es",
+          "_": "Infección por Cryptosporidium sp. en individuos cubanos infectados por el VIH"
+        }
+      ],
+      "v10": [
+        {
+          "s": "HADAD",
+          "r": "ND",
+          "_": "",
+          "n": "P."
+        },
+        {
+          "s": "FERNANDEZ",
+          "r": "ND",
+          "_": "",
+          "n": "H."
+        },
+        {
+          "s": "MILLAN",
+          "r": "ND",
+          "_": "",
+          "n": "J. C."
+        },
+        {
+          "s": "RAMOS",
+          "r": "ND",
+          "_": "",
+          "n": "A."
+        },
+        {
+          "s": "NUÑEZ",
+          "r": "ND",
+          "_": "",
+          "n": "F. A."
+        }
+      ],
+      "v14": [
+        {
+          "_": "55-58"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Revista cubana de medicina tropical"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700009"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19930000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1993"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "9"
+        }
+      ],
+      "v700": [
+        {
+          "_": "109"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Journal of Clinical Microbiology"
+        }
+      ],
+      "v31": [
+        {
+          "_": "36"
+        }
+      ],
+      "code": "S0102-311X200100030002700010",
+      "v35": [
+        {
+          "_": "0095-1137"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Comparison of PCR, Isoenzyme analysis, and antigen detection for diagnosis of Entamoeba histolytica infection"
+        }
+      ],
+      "v10": [
+        {
+          "s": "HAQUE",
+          "r": "ND",
+          "_": "",
+          "n": "R."
+        },
+        {
+          "s": "ALI",
+          "r": "ND",
+          "_": "",
+          "n": "I. K. M."
+        },
+        {
+          "s": "AKTHER",
+          "r": "ND",
+          "_": "",
+          "n": "S."
+        },
+        {
+          "s": "PETRI",
+          "r": "ND",
+          "_": "",
+          "n": "W. A."
+        }
+      ],
+      "v14": [
+        {
+          "_": "449-452"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Journal of Clinical Microbiology"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700010"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19980000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1998"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "10"
+        }
+      ],
+      "v700": [
+        {
+          "_": "110"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Medicine and Parasitology"
+        }
+      ],
+      "v31": [
+        {
+          "_": "1"
+        }
+      ],
+      "code": "S0102-311X200100030002700011",
+      "v12": [
+        {
+          "l": "en",
+          "_": "Means for improving the teaching of Parasitology in higher medical academic institutions"
+        }
+      ],
+      "v10": [
+        {
+          "s": "IAFAEV",
+          "r": "ND",
+          "_": "",
+          "n": "R. K. H."
+        },
+        {
+          "s": "AVTUSHENKO",
+          "r": "ND",
+          "_": "",
+          "n": "E. G."
+        },
+        {
+          "s": "MEZHAZAKIS",
+          "r": "ND",
+          "_": "",
+          "n": "F. I."
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700011"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v710": [
+        {
+          "_": "2"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19980000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1998"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v14": [
+        {
+          "_": "47-49"
+        }
+      ],
+      "v701": [
+        {
+          "_": "11"
+        }
+      ],
+      "v700": [
+        {
+          "_": "111"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Boletín Chileno de Parasitología"
+        }
+      ],
+      "v31": [
+        {
+          "_": "51"
+        }
+      ],
+      "code": "S0102-311X200100030002700012",
+      "v35": [
+        {
+          "_": "0365-9402"
+        }
+      ],
+      "v12": [
+        {
+          "l": "pt",
+          "_": "Intervención para mejorar el diagnóstico coproparasitológico en la Provincia \"Las Tunas\", Cuba, 1993-1994"
+        }
+      ],
+      "v10": [
+        {
+          "s": "LAIRD",
+          "r": "ND",
+          "_": "",
+          "n": "R."
+        },
+        {
+          "s": "RAMIREZ",
+          "r": "ND",
+          "_": "",
+          "n": "E."
+        },
+        {
+          "s": "DEL RISCO",
+          "r": "ND",
+          "_": "",
+          "n": "U."
+        },
+        {
+          "s": "CRESPO",
+          "r": "ND",
+          "_": "",
+          "n": "F. M."
+        },
+        {
+          "s": "DONA",
+          "r": "ND",
+          "_": "",
+          "n": "M. C."
+        }
+      ],
+      "v14": [
+        {
+          "_": "97-100"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Boletín chileno de parasitología"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700012"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19960000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1996"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "12"
+        }
+      ],
+      "v700": [
+        {
+          "_": "112"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Clinical Microbiology Reviews"
+        }
+      ],
+      "v31": [
+        {
+          "_": "10"
+        }
+      ],
+      "code": "S0102-311X200100030002700013",
+      "v35": [
+        {
+          "_": "0893-8512"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Waterborne protozoan pathogens"
+        }
+      ],
+      "v10": [
+        {
+          "s": "MARSHALL",
+          "r": "ND",
+          "_": "",
+          "n": "M. M."
+        },
+        {
+          "s": "NAUMOVITZ",
+          "r": "ND",
+          "_": "",
+          "n": "D."
+        },
+        {
+          "s": "ORTEGA",
+          "r": "ND",
+          "_": "",
+          "n": "Y."
+        },
+        {
+          "s": "STERLING",
+          "r": "ND",
+          "_": "",
+          "n": "C. R."
+        }
+      ],
+      "v14": [
+        {
+          "_": "67-85"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Clinical Microbiology Reviews"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700013"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "13"
+        }
+      ],
+      "v700": [
+        {
+          "_": "113"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Archives of Internal Medicine"
+        }
+      ],
+      "v31": [
+        {
+          "_": "157"
+        }
+      ],
+      "code": "S0102-311X200100030002700014",
+      "v35": [
+        {
+          "_": "0003-9926"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "What do physicians know about cryptosporidiosis?: A survey of Connecticut physicians"
+        }
+      ],
+      "v10": [
+        {
+          "s": "MORIN",
+          "r": "ND",
+          "_": "",
+          "n": "C. A."
+        },
+        {
+          "s": "ROBERTS",
+          "r": "ND",
+          "_": "",
+          "n": "C. L."
+        },
+        {
+          "s": "MSHAR",
+          "r": "ND",
+          "_": "",
+          "n": "P. A."
+        },
+        {
+          "s": "ADISS",
+          "r": "ND",
+          "_": "",
+          "n": "D. G."
+        },
+        {
+          "s": "HADLER",
+          "r": "ND",
+          "_": "",
+          "n": "J. L."
+        }
+      ],
+      "v14": [
+        {
+          "_": "1017-1022"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Archives of Internal Medicine"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700014"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "14"
+        }
+      ],
+      "v700": [
+        {
+          "_": "114"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Revista Cubana de Medicina Tropical"
+        }
+      ],
+      "v31": [
+        {
+          "_": "47"
+        }
+      ],
+      "code": "S0102-311X200100030002700015",
+      "v35": [
+        {
+          "_": "0375-0760"
+        }
+      ],
+      "v12": [
+        {
+          "l": "es",
+          "_": "Primer reporte en Cuba de infección intestinal humana por Cyclospora cayetanensis, Ortega, 1993"
+        }
+      ],
+      "v10": [
+        {
+          "s": "NUÑEZ",
+          "r": "ND",
+          "_": "",
+          "n": "F. A."
+        },
+        {
+          "s": "GALVEZ",
+          "r": "ND",
+          "_": "",
+          "n": "M. D."
+        },
+        {
+          "s": "FINLAY",
+          "r": "ND",
+          "_": "",
+          "n": "C. M."
+        }
+      ],
+      "v14": [
+        {
+          "_": "211-214"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Revista cubana de medicina tropical"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700015"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19950000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1995"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "15"
+        }
+      ],
+      "v700": [
+        {
+          "_": "115"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Cadernos de Saúde Pública"
+        }
+      ],
+      "v31": [
+        {
+          "_": "14"
+        }
+      ],
+      "code": "S0102-311X200100030002700016",
+      "v35": [
+        {
+          "_": "0102-311X"
+        }
+      ],
+      "v12": [
+        {
+          "l": "es",
+          "_": "Intervención educativa para mejorar la calidad del diagnóstico coproparasitológico en la red de salud de Ciudad Habana, Cuba"
+        }
+      ],
+      "v10": [
+        {
+          "s": "NUÑEZ",
+          "r": "ND",
+          "_": "",
+          "n": "F. A."
+        },
+        {
+          "s": "GINORIO",
+          "r": "ND",
+          "_": "",
+          "n": "D."
+        },
+        {
+          "s": "CORDOVI",
+          "r": "ND",
+          "_": "",
+          "n": "R."
+        },
+        {
+          "s": "FINLAY",
+          "r": "ND",
+          "_": "",
+          "n": "C. M."
+        }
+      ],
+      "v14": [
+        {
+          "_": "139-144"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Cadernos de Saúde Pública"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700016"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19980000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1998"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "16"
+        }
+      ],
+      "v700": [
+        {
+          "_": "116"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Cadernos de Saúde Pública"
+        }
+      ],
+      "v31": [
+        {
+          "_": "13"
+        }
+      ],
+      "code": "S0102-311X200100030002700017",
+      "v35": [
+        {
+          "_": "0102-311X"
+        }
+      ],
+      "v12": [
+        {
+          "l": "es",
+          "_": "Control de la Calidad del Diagnóstico Coproparasitológico en la Provincia de Ciudad Habana, Cuba"
+        }
+      ],
+      "v10": [
+        {
+          "s": "NUÑEZ",
+          "r": "ND",
+          "_": "",
+          "n": "F. A."
+        },
+        {
+          "s": "GINORIO",
+          "r": "ND",
+          "_": "",
+          "n": "D."
+        },
+        {
+          "s": "FINLAY",
+          "r": "ND",
+          "_": "",
+          "n": "C. M."
+        }
+      ],
+      "v14": [
+        {
+          "_": "67-72"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Cadernos de Saúde Pública"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700017"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "17"
+        }
+      ],
+      "v700": [
+        {
+          "_": "117"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Revista do Instituto de Medicina Tropical de São Paulo"
+        }
+      ],
+      "v31": [
+        {
+          "_": "38"
+        }
+      ],
+      "code": "S0102-311X200100030002700018",
+      "v35": [
+        {
+          "_": "0036-4665"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "A longitudinal study of Enterobiasis in three day care centers of Havana city"
+        }
+      ],
+      "v10": [
+        {
+          "s": "NUÑEZ",
+          "r": "ND",
+          "_": "",
+          "n": "F. A."
+        },
+        {
+          "s": "HERNANDEZ",
+          "r": "ND",
+          "_": "",
+          "n": "M."
+        },
+        {
+          "s": "FINLAY",
+          "r": "ND",
+          "_": "",
+          "n": "C. M."
+        }
+      ],
+      "v14": [
+        {
+          "_": "129-132"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Revista do Instituto de Medicina Tropical de São Paulo"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700018"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19960000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1996"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "18"
+        }
+      ],
+      "v700": [
+        {
+          "_": "118"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Acta Tropica"
+        }
+      ],
+      "v31": [
+        {
+          "_": "73"
+        }
+      ],
+      "code": "S0102-311X200100030002700019",
+      "v35": [
+        {
+          "_": "0001-706X"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Longitudinal study of giardiasis in three day care centres of Havana City"
+        }
+      ],
+      "v10": [
+        {
+          "s": "NUÑEZ",
+          "r": "ND",
+          "_": "",
+          "n": "F. A."
+        },
+        {
+          "s": "HERNANDEZ",
+          "r": "ND",
+          "_": "",
+          "n": "M."
+        },
+        {
+          "s": "FINLAY",
+          "r": "ND",
+          "_": "",
+          "n": "C. M."
+        }
+      ],
+      "v14": [
+        {
+          "_": "237-242"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Acta Tropica"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700019"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19990000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1999"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "19"
+        }
+      ],
+      "v700": [
+        {
+          "_": "119"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Revista Cubana de Medicina Tropical"
+        }
+      ],
+      "v31": [
+        {
+          "_": "45"
+        }
+      ],
+      "code": "S0102-311X200100030002700020",
+      "v35": [
+        {
+          "_": "0375-0760"
+        }
+      ],
+      "v12": [
+        {
+          "l": "es",
+          "_": "Trichuriasis en Cuba"
+        }
+      ],
+      "v10": [
+        {
+          "s": "NUÑEZ",
+          "r": "ND",
+          "_": "",
+          "n": "F. A."
+        },
+        {
+          "s": "SANJURJO",
+          "r": "ND",
+          "_": "",
+          "n": "E."
+        },
+        {
+          "s": "BRAVO",
+          "r": "ND",
+          "_": "",
+          "n": "J. R."
+        },
+        {
+          "s": "CARBALLO",
+          "r": "ND",
+          "_": "",
+          "n": "D."
+        },
+        {
+          "s": "FINLAY",
+          "r": "ND",
+          "_": "",
+          "n": "C. M."
+        }
+      ],
+      "v14": [
+        {
+          "_": "42-45"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Revista cubana de medicina tropical"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700020"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19930000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1993"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "20"
+        }
+      ],
+      "v700": [
+        {
+          "_": "120"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v18": [
+        {
+          "l": "es",
+          "_": "Medios Auxiliares para el Diagnóstico de las Parasitosis Intestinales"
+        }
+      ],
+      "code": "S0102-311X200100030002700021",
+      "v16": [
+        {
+          "s": "ORIHEL",
+          "r": "ND",
+          "_": "",
+          "n": "T. C."
+        },
+        {
+          "s": "ASH",
+          "r": "ND",
+          "_": "",
+          "n": "L. R."
+        },
+        {
+          "s": "RAMACHANDRAN",
+          "r": "ND",
+          "_": "",
+          "n": "C. P."
+        },
+        {
+          "s": "OTTESEN",
+          "r": "ND",
+          "_": "",
+          "n": "E."
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700021"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v66": [
+        {
+          "_": "Geneva"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "v62": [
+        {
+          "_": "Organización Mundial de la Salud"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v701": [
+        {
+          "_": "21"
+        }
+      ],
+      "v700": [
+        {
+          "_": "121"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Advances in Parasitology"
+        }
+      ],
+      "v31": [
+        {
+          "_": "40"
+        }
+      ],
+      "code": "S0102-311X200100030002700022",
+      "v35": [
+        {
+          "_": "0065-308X"
+        }
+      ],
+      "v12": [
+        {
+          "l": "es",
+          "_": "Cyclospora cayetanensis"
+        }
+      ],
+      "v10": [
+        {
+          "s": "ORTEGA",
+          "r": "ND",
+          "_": "",
+          "n": "Y. R."
+        },
+        {
+          "s": "STERLING",
+          "r": "ND",
+          "_": "",
+          "n": "C. R."
+        },
+        {
+          "s": "GILMAN",
+          "r": "ND",
+          "_": "",
+          "n": "R. H."
+        }
+      ],
+      "v14": [
+        {
+          "_": "399-418"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Advances in parasitology"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700022"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19980000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1998"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "22"
+        }
+      ],
+      "v700": [
+        {
+          "_": "122"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Parasitology Today"
+        }
+      ],
+      "v31": [
+        {
+          "_": "14"
+        }
+      ],
+      "code": "S0102-311X200100030002700023",
+      "v35": [
+        {
+          "_": "0169-4707"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Undergraduate teaching of Medical Parasitology"
+        }
+      ],
+      "v10": [
+        {
+          "s": "PAWLOWSKI",
+          "r": "ND",
+          "_": "",
+          "n": "Z. S."
+        },
+        {
+          "s": "GOULLIER-FLEURET",
+          "r": "ND",
+          "_": "",
+          "n": "A."
+        },
+        {
+          "s": "BRUSCHI",
+          "r": "ND",
+          "_": "",
+          "n": "F."
+        }
+      ],
+      "v14": [
+        {
+          "_": "127-128"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Parasitology today"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700023"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19980000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1998"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "23"
+        }
+      ],
+      "v700": [
+        {
+          "_": "123"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Bulletin de la Société de Pathologie Exotique"
+        }
+      ],
+      "v31": [
+        {
+          "_": "83"
+        }
+      ],
+      "code": "S0102-311X200100030002700024",
+      "v12": [
+        {
+          "l": "fr",
+          "_": "Réalisations et perspective du contrÙle de qualité en Parasitologie et Mycologie"
+        }
+      ],
+      "v10": [
+        {
+          "s": "PETITHORY",
+          "r": "ND",
+          "_": "",
+          "n": "J. C."
+        },
+        {
+          "s": "DROUHET",
+          "r": "ND",
+          "_": "",
+          "n": "E."
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700024"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v710": [
+        {
+          "_": "2"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19900000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1990"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v14": [
+        {
+          "_": "21-30"
+        }
+      ],
+      "v701": [
+        {
+          "_": "24"
+        }
+      ],
+      "v700": [
+        {
+          "_": "124"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Parasitología al Día"
+        }
+      ],
+      "v31": [
+        {
+          "_": "17"
+        }
+      ],
+      "code": "S0102-311X200100030002700025",
+      "v35": [
+        {
+          "_": "0716-0720"
+        }
+      ],
+      "v12": [
+        {
+          "l": "es",
+          "_": "Control de la Trichuriasis en una zona rural de Cuba"
+        }
+      ],
+      "v10": [
+        {
+          "s": "RAMIREZ",
+          "r": "ND",
+          "_": "",
+          "n": "E."
+        },
+        {
+          "s": "DONA",
+          "r": "ND",
+          "_": "",
+          "n": "M. C."
+        }
+      ],
+      "v14": [
+        {
+          "_": "35-39"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Parasitología al día"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700025"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19930000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1993"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "25"
+        }
+      ],
+      "v700": [
+        {
+          "_": "125"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Transactions of the Royal Society of Tropical Medicine and Hygiene"
+        }
+      ],
+      "v31": [
+        {
+          "_": "86"
+        }
+      ],
+      "code": "S0102-311X200100030002700026",
+      "v35": [
+        {
+          "_": "0035-9203"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Intestinal parasitic infections: A soluble public health problem"
+        }
+      ],
+      "v10": [
+        {
+          "s": "SAVIOLI",
+          "r": "ND",
+          "_": "",
+          "n": "L."
+        },
+        {
+          "s": "BUNDY",
+          "r": "ND",
+          "_": "",
+          "n": "D."
+        },
+        {
+          "s": "TOMKINS",
+          "r": "ND",
+          "_": "",
+          "n": "A."
+        }
+      ],
+      "v14": [
+        {
+          "_": "353-354"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Transactions of the Royal Society of Tropical Medicine and Hygiene"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700026"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19920000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1992"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "26"
+        }
+      ],
+      "v700": [
+        {
+          "_": "126"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Boletín Chileno de Parasitología"
+        }
+      ],
+      "v31": [
+        {
+          "_": "52"
+        }
+      ],
+      "code": "S0102-311X200100030002700027",
+      "v35": [
+        {
+          "_": "0365-9402"
+        }
+      ],
+      "v12": [
+        {
+          "l": "es",
+          "_": "Cryptosporidiosis en niños con diarrea aguda de la provincia de Ciego de Avila, Cuba"
+        }
+      ],
+      "v10": [
+        {
+          "s": "SUAREZ",
+          "r": "ND",
+          "_": "",
+          "n": "M."
+        },
+        {
+          "s": "DIAZ",
+          "r": "ND",
+          "_": "",
+          "n": "M."
+        },
+        {
+          "s": "BUSTELO",
+          "r": "ND",
+          "_": "",
+          "n": "J."
+        },
+        {
+          "s": "SANCHEZ",
+          "r": "ND",
+          "_": "",
+          "n": "A."
+        },
+        {
+          "s": "VIDAL",
+          "r": "ND",
+          "_": "",
+          "n": "I."
+        }
+      ],
+      "v14": [
+        {
+          "_": "50-54"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Boletín chileno de parasitología"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700027"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "27"
+        }
+      ],
+      "v700": [
+        {
+          "_": "127"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Medicine Information of London"
+        }
+      ],
+      "v31": [
+        {
+          "_": "22"
+        }
+      ],
+      "code": "S0102-311X200100030002700028",
+      "v12": [
+        {
+          "l": "en",
+          "_": "An Expert Parasite Identification (EPAION) system with multimedia support"
+        }
+      ],
+      "v10": [
+        {
+          "s": "THEODOROPOULUS",
+          "r": "ND",
+          "_": "",
+          "n": "G."
+        },
+        {
+          "s": "LOUMOS",
+          "r": "ND",
+          "_": "",
+          "n": "V."
+        },
+        {
+          "s": "TSOUROULAS",
+          "r": "ND",
+          "_": "",
+          "n": "N."
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700028"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v710": [
+        {
+          "_": "2"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v14": [
+        {
+          "_": "263-273"
+        }
+      ],
+      "v701": [
+        {
+          "_": "28"
+        }
+      ],
+      "v700": [
+        {
+          "_": "128"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Revista Médica de Chile"
+        }
+      ],
+      "v31": [
+        {
+          "_": "123"
+        }
+      ],
+      "code": "S0102-311X200100030002700029",
+      "v35": [
+        {
+          "_": "0034-9887"
+        }
+      ],
+      "v12": [
+        {
+          "l": "es",
+          "_": "Control de calidad externo en el diagnóstico parasitológico de Cryptosporidium parvum"
+        }
+      ],
+      "v10": [
+        {
+          "s": "WEITZ",
+          "r": "ND",
+          "_": "",
+          "n": "J. C."
+        },
+        {
+          "s": "ASTORGA",
+          "r": "ND",
+          "_": "",
+          "n": "B."
+        }
+      ],
+      "v14": [
+        {
+          "_": "997-1001"
+        }
+      ],
+      "v801": [
+        {
+          "_": "Revista médica de Chile"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700029"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19950000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1995"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "29"
+        }
+      ],
+      "v700": [
+        {
+          "_": "129"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v18": [
+        {
+          "l": "en",
+          "_": "Informal consultation on intestinal protozoal infections"
+        }
+      ],
+      "code": "S0102-311X200100030002700030",
+      "v17": [
+        {
+          "_": "World Health Organization"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700030"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19920000"
+        }
+      ],
+      "v66": [
+        {
+          "_": "Mexico"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1992"
+        }
+      ],
+      "v62": [
+        {
+          "_": "WHO/Pan-American Health Organization"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v701": [
+        {
+          "_": "30"
+        }
+      ],
+      "v700": [
+        {
+          "_": "130"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "American Journal of Clinical Pathology"
+        }
+      ],
+      "v31": [
+        {
+          "_": "102"
+        }
+      ],
+      "code": "S0102-311X200100030002700031",
+      "v35": [
+        {
+          "_": "0002-9173"
+        }
+      ],
+      "v12": [
+        {
+          "l": "en",
+          "_": "Proficiency testing in Parasitology: An educational tool to improve laboratory performance"
+        }
+      ],
+      "v10": [
+        {
+          "s": "WOOD",
+          "r": "ND",
+          "_": "",
+          "n": "D. E."
+        },
+        {
+          "s": "PALMER",
+          "r": "ND",
+          "_": "",
+          "n": "J."
+        },
+        {
+          "s": "MISSETT",
+          "r": "ND",
+          "_": "",
+          "n": "P."
+        },
+        {
+          "s": "WHITBY",
+          "r": "ND",
+          "_": "",
+          "n": "J. L."
+        }
+      ],
+      "v14": [
+        {
+          "_": "393-394"
+        }
+      ],
+      "v801": [
+        {
+          "_": "American Journal of Clinical Pathology"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700031"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19940000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1994"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v701": [
+        {
+          "_": "31"
+        }
+      ],
+      "v700": [
+        {
+          "_": "131"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "v30": [
+        {
+          "_": "Medicine and Parasitology"
+        }
+      ],
+      "v31": [
+        {
+          "_": "3"
+        }
+      ],
+      "code": "S0102-311X200100030002700032",
+      "v12": [
+        {
+          "l": "en",
+          "_": "Current problems in the under- and postgraduate training of epidemiologists and parasitologists"
+        }
+      ],
+      "v10": [
+        {
+          "s": "ZUEVA",
+          "r": "ND",
+          "_": "",
+          "n": "L. O."
+        },
+        {
+          "s": "LYSENKO",
+          "r": "ND",
+          "_": "",
+          "n": "A."
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v936": [
+        {
+          "i": "0102-311X",
+          "y": "2001",
+          "_": "",
+          "o": "3"
+        }
+      ],
+      "v880": [
+        {
+          "_": "S0102-311X200100030002700032"
+        }
+      ],
+      "v865": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "v710": [
+        {
+          "_": "2"
+        }
+      ],
+      "v706": [
+        {
+          "_": "c"
+        }
+      ],
+      "v65": [
+        {
+          "_": "19970000"
+        }
+      ],
+      "v64": [
+        {
+          "_": "1997"
+        }
+      ],
+      "collection": "scl",
+      "v709": [
+        {
+          "_": "article"
+        }
+      ],
+      "v708": [
+        {
+          "_": "32"
+        }
+      ],
+      "v2": [
+        {
+          "_": "S0102-311X(01)01700327"
+        }
+      ],
+      "v4": [
+        {
+          "_": "v17n3"
+        }
+      ],
+      "v14": [
+        {
+          "_": "3-34"
+        }
+      ],
+      "v701": [
+        {
+          "_": "32"
+        }
+      ],
+      "v700": [
+        {
+          "_": "132"
+        }
+      ],
+      "v702": [
+        {
+          "_": "C:\\SciELO\\Serial\\csp\\v17n3\\markup\\4655.htm"
+        }
+      ],
+      "v705": [
+        {
+          "_": "S"
+        }
+      ],
+      "processing_date": "2024-12-23",
+      "v882": [
+        {
+          "v": "17",
+          "_": "",
+          "n": "3"
+        }
+      ]
+    }
+  ],
+  "code_issue": "0102-311X20010003",
+  "code_title": [
+    "1678-4464",
+    "0102-311X"
+  ],
+  "created_at": "2001-06-05",
+  "document_type": "brief-report",
+  "processing_date": "2001-06-05",
+  "publication_date": "2001-06",
+  "publication_year": "2001",
+  "sent_wos": "False",
+  "title": {
+    "code": "0102-311X",
+    "collection": "scl",
+    "created_at": "2018-04-04",
+    "issns": [
+      "0102-311X",
+      "1678-4464"
+    ],
+    "processing_date": "2026-01-26",
+    "v10": [
+      {
+        "_": "br1.1"
+      }
+    ],
+    "v100": [
+      {
+        "_": "Cadernos de Saúde Pública"
+      }
+    ],
+    "v117": [
+      {
+        "_": "vancouv"
+      }
+    ],
+    "v150": [
+      {
+        "_": "Cad. Saúde Pública"
+      }
+    ],
+    "v151": [
+      {
+        "_": "Cad. saúde pública"
+      }
+    ],
+    "v20": [
+      {
+        "_": "081953-0"
+      }
+    ],
+    "v301": [
+      {
+        "_": "1985"
+      }
+    ],
+    "v302": [
+      {
+        "_": "1"
+      }
+    ],
+    "v303": [
+      {
+        "_": "1"
+      }
+    ],
+    "v310": [
+      {
+        "_": "BR"
+      }
+    ],
+    "v320": [
+      {
+        "_": "RJ"
+      }
+    ],
+    "v330": [
+      {
+        "_": "CT"
+      }
+    ],
+    "v340": [
+      {
+        "_": "B"
+      }
+    ],
+    "v35": [
+      {
+        "_": "ONLIN"
+      }
+    ],
+    "v350": [
+      {
+        "_": "es"
+      },
+      {
+        "_": "en"
+      },
+      {
+        "_": "pt"
+      }
+    ],
+    "v360": [
+      {
+        "_": "es"
+      },
+      {
+        "_": "en"
+      },
+      {
+        "_": "pt"
+      }
+    ],
+    "v37": [
+      {
+        "_": "6490"
+      }
+    ],
+    "v380": [
+      {
+        "_": "A"
+      }
+    ],
+    "v400": [
+      {
+        "_": "0102-311X"
+      }
+    ],
+    "v421": [
+      {
+        "_": "Cad Saude Publica"
+      }
+    ],
+    "v430": [
+      {
+        "_": "WA"
+      }
+    ],
+    "v435": [
+      {
+        "t": "PRINT",
+        "_": "0102-311X"
+      },
+      {
+        "t": "ONLIN",
+        "_": "1678-4464"
+      }
+    ],
+    "v440": [
+      {
+        "_": "SAUDE PUBLICA"
+      },
+      {
+        "_": "SAUDE COLETIVA"
+      }
+    ],
+    "v441": [
+      {
+        "_": "Health Sciences"
+      }
+    ],
+    "v450": [
+      {
+        "_": "SP"
+      },
+      {
+        "_": "LL"
+      },
+      {
+        "_": "ISI"
+      },
+      {
+        "_": "PubMed"
+      },
+      {
+        "_": "LILACS"
+      }
+    ],
+    "v480": [
+      {
+        "_": "Escola Nacional de Saúde Pública Sergio Arouca, Fundação Oswaldo Cruz"
+      }
+    ],
+    "v490": [
+      {
+        "_": "Rio de Janeiro"
+      }
+    ],
+    "v5": [
+      {
+        "_": "S"
+      }
+    ],
+    "v50": [
+      {
+        "_": "C"
+      }
+    ],
+    "v51": [
+      {
+        "a": "19990702",
+        "b": "C",
+        "_": ""
+      }
+    ],
+    "v541": [
+      {
+        "_": "BY"
+      }
+    ],
+    "v6": [
+      {
+        "_": "c"
+      }
+    ],
+    "v62": [
+      {
+        "_": "Escola Nacional de Saúde Pública, Fundação Oswaldo Cruz"
+      }
+    ],
+    "v63": [
+      {
+        "_": "Rua Leopoldo Bulhões, 1480"
+      },
+      {
+        "_": "21041-210 Rio de Janeiro RJ Brazil"
+      },
+      {
+        "_": "Tel.:+55 21 2598-2511"
+      },
+      {
+        "_": "Fax: +55 21 2598-2737 / +55 21 2598-2514"
+      }
+    ],
+    "v64": [
+      {
+        "_": "cadernos@ensp.fiocruz.br"
+      }
+    ],
+    "v65": [
+      {
+        "_": "<hr>"
+      }
+    ],
+    "v66": [
+      {
+        "_": "art"
+      }
+    ],
+    "v67": [
+      {
+        "_": "na"
+      }
+    ],
+    "v68": [
+      {
+        "_": "csp"
+      }
+    ],
+    "v690": [
+      {
+        "_": "www.scielo.br"
+      }
+    ],
+    "v691": [
+      {
+        "_": "101000000000000000000000"
+      }
+    ],
+    "v692": [
+      {
+        "_": "http://cadernos.ensp.fiocruz.br/csp/index.php"
+      }
+    ],
+    "v699": [
+      {
+        "_": "continuous"
+      }
+    ],
+    "v85": [
+      {
+        "_": "decs"
+      }
+    ],
+    "v851": [
+      {
+        "_": "SCIE"
+      }
+    ],
+    "v852": [
+      {
+        "_": "SSCI"
+      }
+    ],
+    "v854": [
+      {
+        "_": "PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH"
+      }
+    ],
+    "v880": [
+      {
+        "_": "0102-311X"
+      }
+    ],
+    "v901": [
+      {
+        "l": "es",
+        "_": "Publicar artículos originales que contribuyan al estudio de la salud pública en general y de disciplinas afines como epidemiología, nutrición, parasitología, ecología y control de vectores, salud ambiental, políticas públicas y planificación en el ámbito de la salud, ciencias sociales aplicadas a la salud, entre otras."
+      },
+      {
+        "l": "pt",
+        "_": "Publicar artigos originais que contribuam para o estudo da saúde pública em geral e disciplinas afins, como epidemiologia, nutrição, parasitologia, ecologia e controles de vetores, saúde ambiental, políticas públicas e planejamento em saúde, ciências sociais aplicadas à saúde, dentre outras."
+      },
+      {
+        "l": "en",
+        "_": "To publish original articles that contribute to the study of public health in general and to related disciplines such as epidemiology, nutrition, parasitology,vector ecology and control, environmental health, public polices and health planning, social sciences applied to health, and others."
+      }
+    ],
+    "v930": [
+      {
+        "_": "CSP"
+      }
+    ],
+    "v935": [
+      {
+        "_": "1678-4464"
+      }
+    ],
+    "v940": [
+      {
+        "_": "19990702"
+      }
+    ],
+    "v941": [
+      {
+        "_": "20260126"
+      }
+    ],
+    "v942": [
+      {
+        "_": "19990702"
+      }
+    ],
+    "v943": [
+      {
+        "_": "20260123"
+      }
+    ],
+    "v950": [
+      {
+        "_": "MRB"
+      }
+    ],
+    "v951": [
+      {
+        "_": "OCRD"
+      }
+    ],
+    "v992": [
+      {
+        "_": "scl"
+      }
+    ],
+    "updated_at": "2026-01-30"
+  },
+  "validated_scielo": "False",
+  "validated_wos": "False",
+  "version": "html",
+  "fulltexts": {
+    "html": {
+      "es": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0102-311X2001000300027&tlng=es"
+    }
+  },
+  "issue": {
+    "code": "0102-311X20010003",
+    "collection": "scl",
+    "code_title": [
+      "0102-311X",
+      "1678-4464"
+    ],
+    "created_at": "2001-07-24",
+    "issue": {
+      "v30": [
+        {
+          "_": "Cad. Saúde Pública"
+        }
+      ],
+      "v31": [
+        {
+          "_": "17"
+        }
+      ],
+      "v32": [
+        {
+          "_": "3"
+        }
+      ],
+      "code": "0102-311X20010003",
+      "v35": [
+        {
+          "_": "0102-311X"
+        }
+      ],
+      "v36": [
+        {
+          "_": "20013"
+        }
+      ],
+      "v991": [
+        {
+          "_": "1"
+        }
+      ],
+      "v992": [
+        {
+          "_": "scl"
+        }
+      ],
+      "v151": [
+        {
+          "_": "Cad. saúde pública"
+        }
+      ],
+      "v930": [
+        {
+          "_": "CSP"
+        }
+      ],
+      "v880": [
+        {
+          "_": "0102-311X20010003"
+        }
+      ],
+      "v480": [
+        {
+          "_": "Escola Nacional de Saúde Pública, Fundação Oswaldo Cruz"
+        }
+      ],
+      "v421": [
+        {
+          "_": "Cad Saude Publica"
+        }
+      ],
+      "v130": [
+        {
+          "_": "Cadernos de Saúde Pública"
+        }
+      ],
+      "v117": [
+        {
+          "_": "other"
+        }
+      ],
+      "v43": [
+        {
+          "a": "2001",
+          "c": "Rio de Janeiro",
+          "m": "mayo/jun.",
+          "l": "es",
+          "n": "n.3",
+          "t": "Cad. Saúde Pública",
+          "v": "v.17",
+          "_": ""
+        },
+        {
+          "a": "2001",
+          "c": "Rio de Janeiro",
+          "m": "maio/jun.",
+          "l": "pt",
+          "n": "n.3",
+          "t": "Cad. Saúde Pública",
+          "v": "v.17",
+          "_": ""
+        },
+        {
+          "a": "2001",
+          "c": "Rio de Janeiro",
+          "m": "May/June",
+          "l": "en",
+          "n": "no.3",
+          "t": "Cad. Saúde Pública",
+          "v": "vol.17",
+          "_": ""
+        }
+      ],
+      "v42": [
+        {
+          "_": "1"
+        }
+      ],
+      "v85": [
+        {
+          "_": "nd"
+        }
+      ],
+      "v48": [
+        {
+          "h": "Sumario",
+          "l": "es",
+          "_": ""
+        },
+        {
+          "h": "Sumário",
+          "l": "pt",
+          "_": ""
+        },
+        {
+          "h": "Table of Contents",
+          "l": "en",
+          "_": ""
+        }
+      ],
+      "processing_date": "2001-07-24",
+      "v65": [
+        {
+          "_": "20010600"
+        }
+      ],
+      "collection": "scl",
+      "v49": [
+        {
+          "c": "CSP010",
+          "l": "pt",
+          "_": "",
+          "t": "Editorial"
+        },
+        {
+          "c": "CSP120",
+          "l": "pt",
+          "_": "",
+          "t": "Revisão"
+        },
+        {
+          "c": "CSP020",
+          "l": "pt",
+          "_": "",
+          "t": "Artigos"
+        },
+        {
+          "c": "CSP040",
+          "l": "pt",
+          "_": "",
+          "t": "Opinião"
+        },
+        {
+          "c": "CSP030",
+          "l": "pt",
+          "_": "",
+          "t": "Nota"
+        },
+        {
+          "c": "CSP060",
+          "l": "pt",
+          "_": "",
+          "t": "Resenhas"
+        },
+        {
+          "c": "CSP070",
+          "l": "pt",
+          "_": "",
+          "t": "Teses"
+        },
+        {
+          "c": "CSP080",
+          "l": "pt",
+          "_": "",
+          "t": "Comunicações"
+        },
+        {
+          "c": "CSP010",
+          "l": "en",
+          "_": "",
+          "t": "Editorial"
+        },
+        {
+          "c": "CSP120",
+          "l": "en",
+          "_": "",
+          "t": "Review"
+        },
+        {
+          "c": "CSP020",
+          "l": "en",
+          "_": "",
+          "t": "Articles"
+        },
+        {
+          "c": "CSP040",
+          "l": "en",
+          "_": "",
+          "t": "Opinion"
+        },
+        {
+          "c": "CSP030",
+          "l": "en",
+          "_": "",
+          "t": "Research Note"
+        },
+        {
+          "c": "CSP060",
+          "l": "en",
+          "_": "",
+          "t": "Reviews"
+        },
+        {
+          "c": "CSP070",
+          "l": "en",
+          "_": "",
+          "t": "Thesis"
+        },
+        {
+          "c": "CSP080",
+          "l": "en",
+          "_": "",
+          "t": "Communications"
+        }
+      ],
+      "v4": "v17n3",
+      "v122": [
+        {
+          "_": "31"
+        }
+      ],
+      "v701": [
+        {
+          "_": "1"
+        }
+      ],
+      "v700": [
+        {
+          "_": "0"
+        }
+      ],
+      "v706": [
+        {
+          "_": "i"
+        }
+      ],
+      "v91": [
+        {
+          "_": "20010724"
+        }
+      ],
+      "v200": [
+        {
+          "_": "1"
+        }
+      ]
+    },
+    "issue_type": "regular",
+    "processing_date": "2001-07-24",
+    "publication_date": "2001-06",
+    "publication_year": "2001"
+  }
+}

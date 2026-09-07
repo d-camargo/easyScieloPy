@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FIXTURE SINTÉTICA (regra D8): amostra mínima gerada à mão porque a rede estava indisponível na captura; reproduz a estrutura documentada do OAI-PMH ListRecords oai_dc. -->
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-07T02:00:00Z</responseDate>
+    <request verb="ListRecords" metadataPrefix="oai_dc">https://www.scielo.br/oai/scielo-oai.php</request>
+    <ListRecords>
+        <record>
+            <header>
+                <identifier>oai:scielo:S0102-311X2023000100200</identifier>
+                <datestamp>2023-01-15</datestamp>
+                <setSpec>0102-311X</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc>
+                    <dc:title>Epidemiological analysis of Dengue</dc:title>
+                    <dc:creator>Silva, Ana</dc:creator>
+                    <dc:creator>Santos, Carlos</dc:creator>
+                    <dc:date>2023-01-15</dc:date>
+                    <dc:identifier>http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0102-311X2023000100200</dc:identifier>
+                    <dc:identifier>https://doi.org/10.1590/0102-311X00012323</dc:identifier>
+                    <dc:description>This study presents an epidemiological overview of dengue in urban areas.</dc:description>
+                    <dc:language>en</dc:language>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:scielo:S0034-89102022000100200</identifier>
+                <datestamp>2022-05-10</datestamp>
+                <setSpec>0034-8910</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc>
+                    <dc:title>Public health strategies for vector control</dc:title>
+                    <dc:creator>Gomez, Maria</dc:creator>
+                    <dc:creator>Rodriguez, Juan</dc:creator>
+                    <dc:date>2022</dc:date>
+                    <dc:identifier>10.1590/S0034-89102022000100200</dc:identifier>
+                    <dc:identifier>oai:scielo:S0034-89102022000100200</dc:identifier>
+                    <dc:description>An evaluation of vector control initiatives and public policy.</dc:description>
+                    <dc:language>es</dc:language>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <resumptionToken cursor="0" completeListSize="100">TOKEN_PAGE_2</resumptionToken>
+    </ListRecords>
+</OAI-PMH>
