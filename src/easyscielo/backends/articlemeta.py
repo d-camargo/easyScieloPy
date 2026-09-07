@@ -4,6 +4,7 @@ import urllib.parse
 import warnings
 from typing import Any, Iterator, Optional
 
+from easyscielo.errors import BlockedError
 from easyscielo.filters import _remove_accents
 from easyscielo.http import HttpClient
 from easyscielo.models import Article, Query
@@ -390,58 +391,71 @@ class ArticleMetaBackend:
         offset = 0
         limit = 50
         total_fetched = 0
+        failed_articles = 0
 
-        while True:
-            if target_n_max is not None and total_fetched >= target_n_max:
-                break
-
-            url = f"{self.base_url}/article/identifiers/?offset={offset}&limit={limit}"
-            if collections:
-                url += f"&collection={urllib.parse.quote(collections[0])}"
-            if journals:
-                url += f"&issn={urllib.parse.quote(journals[0])}"
-
-            try:
-                response = http.get(url)
-                data = response.json()
-            except Exception:
-                break
-
-            objects = data.get("objects", [])
-            meta = data.get("meta", {})
-            total = meta.get("total")
-
-            if not objects:
-                break
-
-            for obj in objects:
-                code = obj.get("code")
-                col = obj.get("collection")
-                if not code:
-                    continue
-
-                art_url = f"{self.base_url}/article/?code={code}"
-                if col:
-                    art_url += f"&collection={urllib.parse.quote(col)}"
-
-                try:
-                    art_resp = http.get(art_url)
-                    art_payload = art_resp.json()
-                except Exception:
-                    continue
-
-                article = article_to_record(art_payload)
-
-                if not matches(article, query):
-                    continue
-
-                yield article
-
-                total_fetched += 1
+        try:
+            while True:
                 if target_n_max is not None and total_fetched >= target_n_max:
                     return
 
-            offset += len(objects)
+                url = (
+                    f"{self.base_url}/article/identifiers/"
+                    f"?offset={offset}&limit={limit}"
+                )
+                if collections:
+                    url += f"&collection={urllib.parse.quote(collections[0])}"
+                if journals:
+                    url += f"&issn={urllib.parse.quote(journals[0])}"
 
-            if total is not None and offset >= total:
-                break
+                response = http.get(url)
+                data = response.json()
+
+                objects = data.get("objects", [])
+                meta = data.get("meta", {})
+                total = meta.get("total")
+
+                if not objects:
+                    return
+
+                for obj in objects:
+                    code = obj.get("code")
+                    col = obj.get("collection")
+                    if not code:
+                        continue
+
+                    art_url = f"{self.base_url}/article/?code={code}"
+                    if col:
+                        art_url += f"&collection={urllib.parse.quote(col)}"
+
+                    try:
+                        art_resp = http.get(art_url)
+                        art_payload = art_resp.json()
+                    except BlockedError:
+                        raise
+                    except Exception:
+                        failed_articles += 1
+                        continue
+
+                    article = article_to_record(art_payload)
+
+                    if not matches(article, query):
+                        continue
+
+                    yield article
+
+                    total_fetched += 1
+                    if target_n_max is not None and total_fetched >= target_n_max:
+                        return
+
+                offset += len(objects)
+
+                if total is not None and offset >= total:
+                    return
+        finally:
+            if failed_articles > 0:
+                warnings.warn(
+                    f"{failed_articles} artigos não puderam ser lidos e foram "
+                    "pulados",
+                    UserWarning,
+                    stacklevel=2,
+                )

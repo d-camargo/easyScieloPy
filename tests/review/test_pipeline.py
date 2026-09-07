@@ -60,7 +60,7 @@ def mock_openalex_pager(monkeypatch):
     monkeypatch.setattr("easyscielo.backends.openalex._pyalex_pager", fake_pager)
 
 
-def test_pipeline_out_of_order():
+def test_pipeline_out_of_order(mock_scielo_transport):
     protocol = ReviewProtocol(sources=["search"], queries=["test"])
     pipeline = SystematicReview(protocol)
 

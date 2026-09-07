@@ -39,7 +39,7 @@ O `easyscielopy` oferece uma arquitetura flexível com backends SciELO (`search`
 
 ### Tabela D1: Comparativo e Critérios de Escolha de Fontes e Backends
 
-| Critério / Fonte | `search` (Padrão) | `articlemeta` | `oai` | `openalex` | `crossref` |
+| Critério / Fonte | `search` | `articlemeta` | `oai` | `openalex` | `crossref` (Padrão) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Fonte / Cobertura** | Motor web SciELO (`search.scielo.org`) | API REST ArticleMeta SciELO | Provedor OAI-PMH SciELO | Acervo global OpenAlex (artigos, citações) | Registro global de DOIs Crossref |
 | **Dependência** | Nenhuma | Nenhuma | Nenhuma | `pyalex` | Nenhuma |
@@ -47,6 +47,14 @@ O `easyscielopy` oferece uma arquitetura flexível com backends SciELO (`search`
 | **Modo de Filtragem** | Busca textual completa no servidor | Filtragem local (client-side) | Coleta e filtragem local | API OpenAlex (busca textual, anos, ISSN) | API Crossref (busca bibliográfica, anos, ISSN) |
 | **Estabilidade** | Média (raspagem HTML) | Alta (API REST oficial) | Altíssima (OAI-PMH) | Alta (API REST OpenAlex) | Alta (API REST Crossref) |
 | **Quando Usar** | **Usar quando:** precisar de buscas textuais no motor oficial do SciELO. | **Usar quando:** necessitar de metadados completos em JSON da SciELO. | **Usar quando:** realizar coleta massiva via padrão Dublin Core. | **Usar quando:** buscar na literatura global além do SciELO com grafos de citação e tópicos. | **Usar quando:** buscar por DOI ou consultar registros oficiais de editoras globais. |
+| **Estado (2026-09-07)** | **Bloqueado**: `search.scielo.org` responde HTTP 403 atrás do Bunny Shield (desafio JS). A biblioteca não contorna detecção de bot: a chamada levanta `BlockedError` com mensagem explícita. Volta a funcionar sozinha se a SciELO liberar. | **Saudável**, e é hoje o único caminho SciELO que responde. É um **harvester, não um motor de busca**: recorte por `collection` e `journal_issn` (medido: 3 artigos em ~7s com `scl` + ISSN `0102-311X`). Busca textual sem recorte varre o acervo inteiro (563.606 artigos só em `scl`) e não termina em tempo útil — a biblioteca avisa, mas não impede. | **Bloqueado**: mesmo shield em `www.scielo.br/oai/scielo-oai.php`. | Saudável. | Saudável. |
+
+⚠️ **`crossref` é a fonte padrão desde 2026-09-07** (`iter_articles`/`search_articles`
+e o `easyscielo search` da CLI, sem `--source`/`--backend`) porque a SciELO está
+bloqueando requisição automatizada. `search_scielo()`/`iter_scielo()` (`api.py`)
+continuam apontando para os backends SciELO (`backend="search"`) por padrão, de
+propósito — são funções nomeadas para a SciELO, e trocar o default ali mentiria
+no nome.
 
 ---
 

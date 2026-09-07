@@ -15,7 +15,7 @@ ALL_SOURCES = SCIELO_SOURCES + EXTERNAL_SOURCES
 def iter_articles(
     query: str,
     *,
-    sources: Sequence[str] = ("search",),
+    sources: Sequence[str] = ("crossref",),
     lang: str = "en",
     lang_operator: str = "AND",
     n_max: Optional[Union[int, str]] = None,
@@ -32,6 +32,9 @@ def iter_articles(
     """Search multiple sources and return an iterator of Article objects.
 
     Iterates over sources in order, and propagates n_max per source.
+    Default source is ``crossref`` since 2026-09-07: SciELO blocks
+    automated requests (Bunny Shield), and Crossref is the textual-search
+    source that responds.
     """
     q, norm_n_max = build_query(
         query=query,
@@ -73,7 +76,7 @@ def iter_articles(
 def search_articles(
     query: str,
     *,
-    sources: Sequence[str] = ("search",),
+    sources: Sequence[str] = ("crossref",),
     lang: str = "en",
     lang_operator: str = "AND",
     n_max: Optional[Union[int, str]] = None,
@@ -90,6 +93,9 @@ def search_articles(
     """Search multiple sources and return a list of Article objects.
 
     Wrapper around iter_articles that materializes the results.
+    Default source is ``crossref`` since 2026-09-07: SciELO blocks
+    automated requests (Bunny Shield), and Crossref is the textual-search
+    source that responds.
     """
     return list(
         iter_articles(

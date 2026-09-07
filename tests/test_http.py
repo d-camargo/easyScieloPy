@@ -48,7 +48,7 @@ def test_blocked_error_on_403():
 
     with pytest.raises(
         BlockedError,
-        match="Access denied with HTTP 403. SciELO may be blocking automated requests.",
+        match="Access denied with HTTP 403: SciELO is behind a JavaScript anti-bot",
     ):
         client.get("https://example.com/test-403")
 

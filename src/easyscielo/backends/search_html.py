@@ -255,11 +255,8 @@ class SearchBackend:
                 break
 
             url = build_search_url(query, from_idx=from_idx, count=items_per_page)
-            try:
-                response = http.get(url)
-                html = response.text
-            except Exception:
-                break
+            response = http.get(url)
+            html = response.text
 
             if effective_n_max is None:
                 hits = parse_total_hits(html)
@@ -280,12 +277,9 @@ class SearchBackend:
 
             if not articles:
                 # Retry once on empty page before giving up
-                try:
-                    retry_response = http.get(url)
-                    retry_html = retry_response.text
-                    articles = parse_search_page(retry_html, lang=query.lang)
-                except Exception:
-                    articles = []
+                retry_response = http.get(url)
+                retry_html = retry_response.text
+                articles = parse_search_page(retry_html, lang=query.lang)
 
             if not articles:
                 break

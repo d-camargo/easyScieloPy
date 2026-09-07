@@ -46,8 +46,36 @@ O **sci-team** (`~/projects/sci-team`, canal `#sci-team`) usa o subpacote `revie
   - `report.py`: Renderização do relatório final via Jinja2 (`render_report`).
   - `templates/`: Templates Jinja2 do relatório (`report.md.j2`, `report.html.j2`).
 
+## Estado das Fontes SciELO (medido em 2026-09-07)
+
+- `search` — **bloqueado**: `search.scielo.org` responde 403 atrás do Bunny
+  Shield (desafio JS). A biblioteca não contorna detecção de bot: a chamada
+  levanta `BlockedError` com mensagem explícita. Volta a funcionar sozinha se
+  a SciELO liberar.
+- `oai` — **bloqueado**: mesmo shield em `www.scielo.br/oai/scielo-oai.php`.
+- `articlemeta` — **saudável**, e é hoje o único caminho SciELO que responde.
+  É um **harvester, não um motor de busca**: recorte por `collection` e
+  `journal_issn` (medido: 3 artigos em ~7s com `scl` + ISSN `0102-311X`).
+  Busca textual sem recorte varre o acervo inteiro (563.606 artigos só em
+  `scl`) e não termina em tempo útil — a biblioteca avisa, mas não impede.
+- `crossref` e `openalex` — **saudáveis**, e são o caminho de busca textual.
+
+⚠️ **`crossref` é a fonte padrão desde 2026-09-07** em `iter_articles`,
+`search_articles` (`sources.py`) e no `easyscielo search` da CLI sem
+`--source`/`--backend`, porque a SciELO bloqueia requisição automatizada.
+`search_scielo()`/`iter_scielo()` (`api.py`) continuam com `backend="search"`
+por padrão, **de propósito**: são funções nomeadas para os backends SciELO, e
+`articlemeta` sem `collection`/`journal_issn` não serve de padrão (varre o
+acervo inteiro e não termina em tempo útil).
+
 ## Regras de Trabalho e Testes
 
+- **Erro de Fonte Nunca Vira Lista Vazia**: Bloqueio, HTTP inesperado e
+  resposta malformada sobem como exceção (`BlockedError`, `BackendError`,
+  `ParseError`) — nunca como resultado vazio com `exit 0`. Corpus vazio tem
+  que significar "a busca rodou e não achou nada", senão uma fonte fora do
+  ar se passa por consulta legítima. Foi o que aconteceu até 2026-09-07 com
+  as três fontes SciELO.
 - **Fixtures para Parsers**: Todo parser novo ou alteração em parser existente entra obrigatoriamente com fixture gravada em `tests/fixtures/`.
 - **Isolamento de Rede por Padrão**: Nenhum teste automatizado do projeto bate na rede por padrão. Todos os testes devem rodar offline utilizando mocks ou as fixtures previamente salvas.
 - **Fonte Nova é Backend**: Toda fonte nova implementa o `Backend` Protocol e entra no registro de backends. Não se cria abstração paralela para acomodar uma fonte.

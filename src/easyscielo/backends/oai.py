@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 from typing import Iterator, Optional
 
 from easyscielo.backends.articlemeta import matches
+from easyscielo.errors import BackendError, ParseError
 from easyscielo.http import HttpClient
 from easyscielo.models import Article, Query
 
@@ -236,18 +237,21 @@ class OaiBackend:
                 if s_val:
                     params["set"] = str(s_val)
 
-            try:
-                response = http.get(self.endpoint, params=params)
-                if response.status_code != 200:
-                    break
-                xml_text = response.text
-            except Exception:
-                break
+            response = http.get(self.endpoint, params=params)
+            if response.status_code != 200:
+                raise BackendError(
+                    f"OAI-PMH endpoint {self.endpoint} returned HTTP "
+                    f"{response.status_code}."
+                )
+            xml_text = response.text
 
             try:
                 root = ET.fromstring(xml_text)
-            except Exception:
-                break
+            except ET.ParseError as exc:
+                raise ParseError(
+                    f"OAI-PMH endpoint {self.endpoint} did not return valid XML: "
+                    f"{exc}"
+                ) from exc
 
             error_elem = root.find(".//{http://www.openarchives.org/OAI/2.0/}error")
             if error_elem is None:

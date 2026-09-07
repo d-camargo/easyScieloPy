@@ -33,7 +33,10 @@ def build_parser() -> argparse.ArgumentParser:
         "--source",
         action="append",
         default=None,
-        help="Search source to use (repeatable, default: 'search')",
+        help=(
+            "Search source to use (repeatable, default: 'crossref' since "
+            "2026-09-07 because SciELO blocks automated requests)"
+        ),
     )
     search_parser.add_argument(
         "--collection",
@@ -369,7 +372,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                     n_max=args.n_max,
                 )
             else:
-                sources = args.source if args.source is not None else ["search"]
+                sources = args.source if args.source is not None else ["crossref"]
                 articles = search_articles(
                     query=args.query,
                     sources=sources,

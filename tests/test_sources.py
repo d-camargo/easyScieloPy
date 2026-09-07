@@ -8,7 +8,7 @@ from easyscielo.backends import BackendError
 from easyscielo.backends.base import Backend
 from easyscielo.http import HttpClient
 from easyscielo.models import Article, Query
-from easyscielo.sources import iter_articles
+from easyscielo.sources import iter_articles, search_articles
 
 
 class MockBackendA(Backend):
@@ -77,4 +77,41 @@ def test_search_scielo_legacy_behavior():
         # In legacy mode, source might not be set by iter_articles since it's just iter_scielo
         # But iter_scielo delegates to the backend directly, and Article defaults to ""
         assert results[0].source == ""
+        assert results[0].title == "Article A 0"
+
+
+def test_iter_articles_default_source_is_crossref():
+    # Since 2026-09-07, SciELO's "search" backend is blocked (Bunny Shield);
+    # iter_articles now defaults to "crossref" without an explicit sources=.
+    from easyscielo.backends import _BACKENDS
+
+    with patch.dict(_BACKENDS, {"crossref": MockBackendA}):
+        results = list(iter_articles("test query", n_max=2))
+        assert len(results) == 2
+        assert results[0].source == "crossref"
+        assert results[0].title == "Article A 0"
+
+
+def test_search_articles_default_source_is_crossref():
+    # Same default change as iter_articles, exercised through the
+    # materializing wrapper search_articles.
+    from easyscielo.backends import _BACKENDS
+
+    with patch.dict(_BACKENDS, {"crossref": MockBackendB}):
+        results = search_articles("test query", n_max=2)
+        assert len(results) == 2
+        assert results[0].source == "crossref"
+        assert results[0].title == "Article B 0"
+
+
+def test_search_scielo_mantem_backend_scielo_por_padrao():
+    # Decisao deliberada (SPEC-crossref-padrao.md): search_scielo/iter_scielo
+    # em api.py NAO mudam de padrao. O parametro deles e "backend" (registro
+    # SciELO: search/articlemeta/oai), e continuam usando "search" mesmo sem
+    # backend= explicito -- mesmo com o novo default "crossref" em sources.py.
+    from easyscielo.backends import _BACKENDS
+
+    with patch.dict(_BACKENDS, {"search": MockBackendA}):
+        results = search_scielo("test query", n_max=3)
+        assert len(results) == 3
         assert results[0].title == "Article A 0"

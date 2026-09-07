@@ -95,6 +95,21 @@ def test_cli_search_repeated_source(capsys):
         assert data[1]["title"] == "Crossref article for dengue"
 
 
+def test_cli_search_default_source_is_crossref(capsys):
+    # Since 2026-09-07, SciELO's "search" backend is blocked (Bunny Shield);
+    # `easyscielo search` without --source and without --backend now uses
+    # search_articles with ["crossref"] as default.
+    with patch.dict(_BACKENDS, {"crossref": FakeSourceCrossref}):
+        argv = ["search", "dengue"]
+        exit_code = main(argv)
+        assert exit_code == 0
+
+        captured = capsys.readouterr()
+        data = json.loads(captured.out)
+        assert len(data) == 1
+        assert data[0]["title"] == "Crossref article for dengue"
+
+
 def test_cli_search_conflict_source_and_backend(capsys):
     argv = ["search", "dengue", "--backend", "search", "--source", "openalex"]
     exit_code = main(argv)

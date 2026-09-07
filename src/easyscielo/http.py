@@ -29,8 +29,10 @@ FIXED_HEADERS = {
 }
 
 BLOCKED_ERROR_MESSAGE = (
-    "Access denied with HTTP 403. SciELO may be blocking automated requests. "
-    "Try slowing down or rotating headers."
+    "Access denied with HTTP 403: SciELO is behind a JavaScript anti-bot "
+    "challenge (Bunny Shield), measured 2026-09-07. Slowing down or rotating "
+    "headers does not help. Use the 'crossref' or 'openalex' sources for "
+    "textual search, or 'articlemeta' scoped by collection/journal_issn."
 )
 
 
